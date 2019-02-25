@@ -1,0 +1,6 @@
+This template library was part of a project for construction of an object oriented language that
+was connected to an apache server for quick access to large scale project information. The language
+implemented a new mime type enabling quick construction of complex project data. The NSAPI extension
+used an NPAPI mate for display of the data.
+
+Feel free to use this as you see fit if it's of use. It's a GPL offering.https://github.com/itsmike-austin/src/tree/master/LocalVectorMathhttps://github.com/itsmike-austin/src/tree/master/LocalVectorMath
