@@ -40,7 +40,7 @@ signtool verify -a -v test.exe
 
 
 C:\Documents and Settings\Mike Burnett\My Documents\Projects\Vector4>signtool si
-gn -f sign.pfx -p butthead -v AdvancedAlignedVector.dll
+gn -f sign.pfx -p breezy -v AdvancedAlignedVector.dll
 The following certificate was selected:
     Issued to: ItsTest
     Issued by: ItsTest
@@ -48,7 +48,7 @@ The following certificate was selected:
     SHA1 hash: 95B52329B0C81732B300F2EC1DD8671FF97023EC
 
 C:\Documents and Settings\Mike Burnett\My Documents\Projects\Vector4>signtool si
-gn -f sign.pfx -p butthead -v AdvancedUnalignedVector.dll
+gn -f sign.pfx -p breezy -v AdvancedUnalignedVector.dll
 The following certificate was selected:
     Issued to: ItsTest
     Issued by: ItsTest
@@ -56,7 +56,7 @@ The following certificate was selected:
     SHA1 hash: 95B52329B0C81732B300F2EC1DD8671FF97023EC
 
 C:\Documents and Settings\Mike Burnett\My Documents\Projects\Vector4>signtool si
-gn -f sign.pfx -p butthead -v AlignedVector.dll
+gn -f sign.pfx -p breezy -v AlignedVector.dll
 The following certificate was selected:
     Issued to: ItsTest
     Issued by: ItsTest
@@ -64,4 +64,3 @@ The following certificate was selected:
     SHA1 hash: 95B52329B0C81732B300F2EC1DD8671FF97023EC
 
 Done Adding Additional Store
-
