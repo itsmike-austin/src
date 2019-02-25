@@ -1,0 +1,8 @@
+This is an assembly language library that was originally designed to supplement
+glsl and hlsl shaders allowing multi-threaded calculation of animations.
+This was built for windows, but was migrated to linux using nasm vs. asm
+for the assembler. The linux makefiles have been removed due to issues associated
+with the build.
+
+If you find this library and find it useful, feel free to use it as you see fit.
+GPL usage applies. Credit goes to Mike Burnett at Internet Technology Systems, Inc.
