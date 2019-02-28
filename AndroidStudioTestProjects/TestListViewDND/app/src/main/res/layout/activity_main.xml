@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="buzz.itsinc.testlistviewdnd.MainActivity"
+    android:alignmentMode="alignBounds"
+    android:columnCount="2"
+    android:rowOrderPreserved="false"
+    android:useDefaultMargins="true">
+
+    <ListView
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_horizontal"
+        android:gravity="center"
+        android:id="@+id/list1"/>
+
+    <Button
+        android:text="Button2"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_horizontal"
+        android:gravity="center"
+        android:id="@+id/button"/> -->
+<!--
+    <Button
+        android:text="Button1"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_horizontal"
+        android:gravity="center"
+        android:id="@+id/button2"/>
+
+    <Button
+        android:text="Button2"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_horizontal"
+        android:gravity="center"
+    android:id="@+id/button"/> -->
+</GridLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="21.0.2"><source path="C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\res"/></dataSet><dataSet config="main"><source path="C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\src\main\res"><file name="ic_launcher" path="C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="tile" path="C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\src\main\res\drawable-hdpi\tile.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="sample_main" path="C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\src\main\res\layout\sample_main.xml" qualifiers="" type="layout"/><file path="C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\src\main\res\values\base-strings.xml" qualifiers=""><string name="intro_message">
+        <![CDATA[
+        
+            
+                This sample illustrates the use of a TextSwitcher to display text.
+                \n\nClick the button below to set new text in the TextSwitcher and observe the
+                in and out fade animations.
+            
+        
+        ]]>
+    </string><string name="app_name">TextSwitcher</string></file><file path="C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\src\main\res\values\dimens.xml" qualifiers=""><dimen name="activity_vertical_margin">16dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen></file><file path="C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\src\main\res\values\strings.xml" qualifiers=""><string name="next">Next</string><string name="intro">This sample illustrates the use of a <b>TextSwitcher</b> to display text.
+\n\n<b>Click the button</b> below to set new text in the TextSwitcher and observe the in and out
+ fade animations.</string></file><file path="C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\src\main\res\values\template-dimens.xml" qualifiers=""><dimen name="margin_small">8dp</dimen><dimen name="vertical_page_margin">@dimen/margin_medium</dimen><dimen name="margin_tiny">4dp</dimen><dimen name="margin_large">32dp</dimen><dimen name="margin_huge">64dp</dimen><dimen name="margin_medium">16dp</dimen><dimen name="horizontal_page_margin">@dimen/margin_medium</dimen></file><file path="C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\src\main\res\values\template-styles.xml" qualifiers=""><style name="Theme.Base" parent="android:Theme.Light"/><style name="Widget.SampleMessage">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style><style name="AppTheme" parent="Theme.Sample"/><style name="Theme.Sample" parent="Theme.Base"/><style name="Widget"/><style name="Widget.SampleMessageTile">
+        <item name="android:background">@drawable/tile</item>
+        <item name="android:shadowColor">#7F000000</item>
+        <item name="android:shadowDy">-3.5</item>
+        <item name="android:shadowRadius">2</item>
+    </style></file><file path="C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\src\main\res\values-sw600dp\template-dimens.xml" qualifiers="sw600dp-v13"><dimen name="vertical_page_margin">@dimen/margin_medium</dimen><dimen name="horizontal_page_margin">@dimen/margin_huge</dimen></file><file path="C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\src\main\res\values-sw600dp\template-styles.xml" qualifiers="sw600dp-v13"><style name="Widget.SampleMessage">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+        <item name="android:shadowDy">-6.5</item>
+    </style></file><file path="C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\src\main\res\values-sw720dp-land\dimens.xml" qualifiers="sw720dp-land-v13"><dimen name="activity_horizontal_margin">128dp</dimen></file><file path="C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style></file><file path="C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\src\main\res\values-v11\template-styles.xml" qualifiers="v11"><style name="Theme.Base" parent="android:Theme.Holo.Light"/></file><file path="C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style></file><file path="C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\src\main\res\values-v21\base-template-styles.xml" qualifiers="v21"><style name="Theme.Base" parent="android:Theme.Material.Light">
+    </style></file></source><source path="C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\src\common\res"/><source path="C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\src\template\res"/><source path="C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\build\generated\res\rs\debug"/><source path="C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\build\generated\res\generated\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\src\debug\res"/></dataSet><mergedItems/></merger>

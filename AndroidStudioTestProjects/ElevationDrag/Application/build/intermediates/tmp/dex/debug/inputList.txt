@@ -1,0 +1,7 @@
+C:\Users\artwork\AndroidStudioProjects\ElevationDrag\Application\build\intermediates\classes\debug
+C:\Users\artwork\AndroidStudioProjects\ElevationDrag\Application\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-ca1bf4ce99b44c37624b78e4e6c7bc20117a4795.jar
+C:\Users\artwork\AndroidStudioProjects\ElevationDrag\Application\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-c0dbe5a07e891f59a1926c8d7c8c59b1055d9fc2.jar
+C:\Users\artwork\AndroidStudioProjects\ElevationDrag\Application\build\intermediates\pre-dexed\debug\classes-c68a959e38cbe07db1fc99fa53859adeebda58f7.jar
+C:\Users\artwork\AndroidStudioProjects\ElevationDrag\Application\build\intermediates\pre-dexed\debug\classes-b04c3c41cec59dc7e8cc350b6e858bd27c5c33d9.jar
+C:\Users\artwork\AndroidStudioProjects\ElevationDrag\Application\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-5a75d3c5b357cb714d6e7dd93cd4439a144cb1cb.jar
+C:\Users\artwork\AndroidStudioProjects\ElevationDrag\Application\build\intermediates\pre-dexed\debug\classes-64f8085fc2af919e53094952395b182fcdc70774.jar

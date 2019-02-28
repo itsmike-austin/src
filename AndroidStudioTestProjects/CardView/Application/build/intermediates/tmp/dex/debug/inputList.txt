@@ -1,0 +1,2 @@
+C:\Users\artwork\AndroidStudioProjects\CardView\Application\build\intermediates\classes\debug
+C:\Users\artwork\AndroidStudioProjects\CardView\Application\build\intermediates\pre-dexed\debug\classes-e6251ae99e005fcada3f48f3101728c7198d1091.jar

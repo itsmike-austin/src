@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\artwork\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.2\support-annotations-21.0.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
+        <dex dex="C:\Users\artwork\AndroidStudioProjects\SlidingTabsColors1\Application\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-ce001ab863521edbe14904b97955fa068eb96290.jar" />
+    </item>
+    <item
+        jar="C:\Users\artwork\AndroidStudioProjects\SlidingTabsColors1\Application\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="C:\Users\artwork\AndroidStudioProjects\SlidingTabsColors1\Application\build\intermediates\pre-dexed\debug\classes-3ab49867b398792e98ac41d9495cb94d0f458254.jar" />
+    </item>
+    <item
+        jar="C:\Users\artwork\AndroidStudioProjects\SlidingTabsColors1\Application\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\libs\internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="C:\Users\artwork\AndroidStudioProjects\SlidingTabsColors1\Application\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-bbd523ba6ddbe3b374cba7fc1c8d8c610aed113e.jar" />
+    </item>
+    <item
+        jar="C:\Users\artwork\AndroidStudioProjects\SlidingTabsColors1\Application\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b017100da14f9c158c9f5f2f508333c224b24a7c">
+        <dex dex="C:\Users\artwork\AndroidStudioProjects\SlidingTabsColors1\Application\build\intermediates\pre-dexed\debug\classes-2163fa9c6c1d01a45bab1403772bdebd63454612.jar" />
+    </item>
+    <item
+        jar="C:\Users\artwork\AndroidStudioProjects\SlidingTabsColors1\Application\build\intermediates\exploded-aar\com.android.support\support-v13\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61965ae058916e6a57950dd61b0164dc866af19a">
+        <dex dex="C:\Users\artwork\AndroidStudioProjects\SlidingTabsColors1\Application\build\intermediates\pre-dexed\debug\classes-8f0c190859bc2cbe464483196f6c173f5ab03a44.jar" />
+    </item>
+    <item
+        jar="C:\Users\artwork\AndroidStudioProjects\SlidingTabsColors1\Application\build\intermediates\exploded-aar\com.android.support\support-v13\21.0.2\libs\internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9346da9fb778af9e451211bbc3541daced174ba7">
+        <dex dex="C:\Users\artwork\AndroidStudioProjects\SlidingTabsColors1\Application\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-967556d9bebcf184d5c63255bcf0aa6df94835a0.jar" />
+    </item>
+
+</items>

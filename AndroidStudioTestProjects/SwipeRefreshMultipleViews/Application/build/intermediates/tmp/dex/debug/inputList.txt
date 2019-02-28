@@ -1,0 +1,6 @@
+C:\Users\artwork\AndroidStudioProjects\SwipeRefreshMultipleViews\Application\build\intermediates\classes\debug
+C:\Users\artwork\AndroidStudioProjects\SwipeRefreshMultipleViews\Application\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-c0dbe5a07e891f59a1926c8d7c8c59b1055d9fc2.jar
+C:\Users\artwork\AndroidStudioProjects\SwipeRefreshMultipleViews\Application\build\intermediates\pre-dexed\debug\classes-0382dcc367d30aa7d4d273ffb8aa3549f16c9393.jar
+C:\Users\artwork\AndroidStudioProjects\SwipeRefreshMultipleViews\Application\build\intermediates\pre-dexed\debug\classes-24c72327e273943d4bd7a3712f80e9fee52b2730.jar
+C:\Users\artwork\AndroidStudioProjects\SwipeRefreshMultipleViews\Application\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-ad3f885f3fd0f3e28333f823bc8f0be5d29c1a47.jar
+C:\Users\artwork\AndroidStudioProjects\SwipeRefreshMultipleViews\Application\build\intermediates\pre-dexed\debug\classes-d8235f49816d18260161b7367f9daa239b3bf6a0.jar

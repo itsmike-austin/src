@@ -1,0 +1,7 @@
+C:\Users\artwork\AndroidStudioProjects\RevealEffectBasic\Application\build\intermediates\classes\debug
+C:\Users\artwork\AndroidStudioProjects\RevealEffectBasic\Application\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-28a74778d93c61de559bea545d8a52998378526a.jar
+C:\Users\artwork\AndroidStudioProjects\RevealEffectBasic\Application\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-c0dbe5a07e891f59a1926c8d7c8c59b1055d9fc2.jar
+C:\Users\artwork\AndroidStudioProjects\RevealEffectBasic\Application\build\intermediates\pre-dexed\debug\classes-a21caa96ef6a5827de37083bb9f9893c0949e1d2.jar
+C:\Users\artwork\AndroidStudioProjects\RevealEffectBasic\Application\build\intermediates\pre-dexed\debug\classes-f1a4edf9e5775a26b1ffb4a92c3bbb60ef778d20.jar
+C:\Users\artwork\AndroidStudioProjects\RevealEffectBasic\Application\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-032e78b99e043794ff2b758669673168aba3d5c0.jar
+C:\Users\artwork\AndroidStudioProjects\RevealEffectBasic\Application\build\intermediates\pre-dexed\debug\classes-cf0959049621adf6a7cd42b2ebb1b8b4390a13d4.jar

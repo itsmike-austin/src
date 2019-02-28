@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\artwork\AndroidStudioProjects\BasicGestureDetect1\Application\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b017100da14f9c158c9f5f2f508333c224b24a7c">
+        <dex dex="C:\Users\artwork\AndroidStudioProjects\BasicGestureDetect1\Application\build\intermediates\pre-dexed\debug\classes-2c458fa352313f736605ac86d891535df7bfc18a.jar" />
+    </item>
+    <item
+        jar="C:\Users\artwork\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.2\support-annotations-21.0.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
+        <dex dex="C:\Users\artwork\AndroidStudioProjects\BasicGestureDetect1\Application\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-ce001ab863521edbe14904b97955fa068eb96290.jar" />
+    </item>
+    <item
+        jar="C:\Users\artwork\AndroidStudioProjects\BasicGestureDetect1\Application\build\intermediates\exploded-aar\com.android.support\support-v13\21.0.2\libs\internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9346da9fb778af9e451211bbc3541daced174ba7">
+        <dex dex="C:\Users\artwork\AndroidStudioProjects\BasicGestureDetect1\Application\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-6be6c3eeb12c72226f2aad7de86190b21a39f87d.jar" />
+    </item>
+    <item
+        jar="C:\Users\artwork\AndroidStudioProjects\BasicGestureDetect1\Application\build\intermediates\exploded-aar\com.android.support\support-v13\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61965ae058916e6a57950dd61b0164dc866af19a">
+        <dex dex="C:\Users\artwork\AndroidStudioProjects\BasicGestureDetect1\Application\build\intermediates\pre-dexed\debug\classes-2488d531b84f5752e532abf40b82d70868b17714.jar" />
+    </item>
+    <item
+        jar="C:\Users\artwork\AndroidStudioProjects\BasicGestureDetect1\Application\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\libs\internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="C:\Users\artwork\AndroidStudioProjects\BasicGestureDetect1\Application\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-803a38d3c482b2b5c145c13e91c49d2cf1ca6e29.jar" />
+    </item>
+    <item
+        jar="C:\Users\artwork\AndroidStudioProjects\BasicGestureDetect1\Application\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="C:\Users\artwork\AndroidStudioProjects\BasicGestureDetect1\Application\build\intermediates\pre-dexed\debug\classes-44953910c761067f989ccf91a9bc246f15310379.jar" />
+    </item>
+
+</items>

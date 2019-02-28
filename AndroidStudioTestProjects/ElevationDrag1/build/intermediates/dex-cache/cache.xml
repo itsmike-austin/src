@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\artwork\AndroidStudioProjects\ElevationDrag1\Application\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b017100da14f9c158c9f5f2f508333c224b24a7c">
+        <dex dex="C:\Users\artwork\AndroidStudioProjects\ElevationDrag1\Application\build\intermediates\pre-dexed\debug\classes-72d0e5b88c336e0038d9a8caaab9f8422536f47c.jar" />
+    </item>
+    <item
+        jar="C:\Users\artwork\AndroidStudioProjects\ElevationDrag1\Application\build\intermediates\exploded-aar\com.android.support\support-v13\21.0.2\jars\libs\internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9346da9fb778af9e451211bbc3541daced174ba7">
+        <dex dex="C:\Users\artwork\AndroidStudioProjects\ElevationDrag1\Application\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-e520e02cd69af2fabd394f6face2846588deae01.jar" />
+    </item>
+    <item
+        jar="C:\Users\artwork\AndroidStudioProjects\ElevationDrag1\Application\build\intermediates\exploded-aar\com.android.support\support-v13\21.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61965ae058916e6a57950dd61b0164dc866af19a">
+        <dex dex="C:\Users\artwork\AndroidStudioProjects\ElevationDrag1\Application\build\intermediates\pre-dexed\debug\classes-870d1aec4b683e6461313c55c0d391dbf3596d4b.jar" />
+    </item>
+    <item
+        jar="C:\Users\artwork\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.2\support-annotations-21.0.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
+        <dex dex="C:\Users\artwork\AndroidStudioProjects\ElevationDrag1\Application\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-ce001ab863521edbe14904b97955fa068eb96290.jar" />
+    </item>
+    <item
+        jar="C:\Users\artwork\AndroidStudioProjects\ElevationDrag1\Application\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="C:\Users\artwork\AndroidStudioProjects\ElevationDrag1\Application\build\intermediates\pre-dexed\debug\classes-fa9030d6dc2682f6bfbca292d7a019cc2d59b028.jar" />
+    </item>
+    <item
+        jar="C:\Users\artwork\AndroidStudioProjects\ElevationDrag1\Application\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\jars\libs\internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="C:\Users\artwork\AndroidStudioProjects\ElevationDrag1\Application\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-b74e3a586d5b0c23e39393527b035f542e24aaa6.jar" />
+    </item>
+
+</items>

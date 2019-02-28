@@ -1,0 +1,4 @@
+C:\Users\artwork\AndroidStudioProjects\SlidingTabsColors\Application\build\intermediates\classes\debug
+C:\Users\artwork\AndroidStudioProjects\SlidingTabsColors\Application\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-c0dbe5a07e891f59a1926c8d7c8c59b1055d9fc2.jar
+C:\Users\artwork\AndroidStudioProjects\SlidingTabsColors\Application\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-1507dc566efc6c766bd3e19b8954aed98250cfcd.jar
+C:\Users\artwork\AndroidStudioProjects\SlidingTabsColors\Application\build\intermediates\pre-dexed\debug\classes-07d579d43696c18374ca096e8a527b72935bb7e9.jar

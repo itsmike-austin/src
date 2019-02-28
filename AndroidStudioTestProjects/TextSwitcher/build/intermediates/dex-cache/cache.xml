@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\libs\internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-21b03241dace41d5fc21cd83a8bf25ebb4c14626.jar" />
+    </item>
+    <item
+        jar="C:\Users\artwork\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.2\support-annotations-21.0.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
+        <dex dex="C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-c0dbe5a07e891f59a1926c8d7c8c59b1055d9fc2.jar" />
+    </item>
+    <item
+        jar="C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\build\intermediates\pre-dexed\debug\classes-db48d74482deabcd71ed8876db690bb3d90e369c.jar" />
+    </item>
+
+</items>

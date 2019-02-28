@@ -1,0 +1,4 @@
+C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\build\intermediates\classes\debug
+C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-c0dbe5a07e891f59a1926c8d7c8c59b1055d9fc2.jar
+C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-21b03241dace41d5fc21cd83a8bf25ebb4c14626.jar
+C:\Users\artwork\AndroidStudioProjects\TextSwitcher\Application\build\intermediates\pre-dexed\debug\classes-db48d74482deabcd71ed8876db690bb3d90e369c.jar
