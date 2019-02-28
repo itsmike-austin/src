@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;project.properties&apos; to &apos;VoiceRecorder&apos;&#x0D;&#x0A;- Original project: &apos;tid1&apos;&#x0D;&#x0A;- Destination element: &apos;VoiceRecorder&apos;&#x0D;&#x0A;- Original element: &apos;project.properties&apos;" description="Copy file" element1="project.properties" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1390267800845" target="/VoiceRecorder" units="0" version="1.0"/>
+</session>

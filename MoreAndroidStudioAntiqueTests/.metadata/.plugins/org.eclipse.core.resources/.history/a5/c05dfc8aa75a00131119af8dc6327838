@@ -1,0 +1,44 @@
+package com.example.notificationtest01;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.app.Notification;
+import android.app.NotificationManager;
+import android.content.Context;
+import android.view.Menu;
+
+public class MainActivity extends Activity {
+	
+	private static final int HELLO_ID = 1337;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		
+		// Create tne notification intent
+		
+		Intent notificationIntent = new Intent(this,Activity.class);
+		
+		// Create notification
+		
+		NotificationManager nm = 
+				(NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+		
+		int icon = R.drawable.ic_launcher;
+		
+		CharSequence tickerTicket = "Hello";
+		long         when         = System.currentTimeMillis();
+		
+		Notification notification = new Notification(icon,tickerText,when);
+		
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+
+}

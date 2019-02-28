@@ -1,0 +1,33 @@
+package com.example.notificationtest01;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.app.Notification;
+import android.app.NotificationManager;
+import android.content.Context;
+import android.view.Menu;
+
+public class MainActivity extends Activity {
+	
+	private static final int NOTIFY_ME_ID = 1337;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		
+		// Create notification
+		
+		final NotificationManager mgr = (NotificationManager)this.getSystemService(Context.NOTIFICATION_SERVICE);
+		Notification note = new Notification(R.drawable.ic_launcher,"Welcome to Androidituts!",System.currentTimeMillis());
+		
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+
+}

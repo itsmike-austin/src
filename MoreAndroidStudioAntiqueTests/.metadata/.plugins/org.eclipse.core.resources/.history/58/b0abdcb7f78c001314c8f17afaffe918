@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/file_dialog_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/file_dialog_file_name_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/output_type_selection_dialog_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/file_name_label" />
+
+        <TextView
+            android:id="@+id/file_name_string"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="none" >
+
+        </TextView>
+        
+    </LinearLayout>
+
+    <View
+        android:id="@+id/file_dialog_file_name_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_below="@id/file_dialog_file_name_container" />
+        
+    <LinearLayout
+        android:id="@+id/file_dialog_button_bar"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/output_type_selection_dialog_ok_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/play_button_label" />
+
+        <Button
+            android:id="@+id/output_type_selection_dialog_delete_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete_button_label" />
+
+        <Button
+            android:id="@+id/output_type_selection_dialog_preview_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/preview_button_label" />
+        
+        <Button
+            android:id="@+id/output_type_selection_dialog_quit_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quit_label" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:layout_below="@id/file_dialog_file_name_separator"
+        android:layout_above="@id/file_dialog_button_bar" >
+
+        <ListView
+            android:id="@+id/output_type_selection_dialog_spinner"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </ListView>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/file_dialog_button_bar_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_above="@id/file_dialog_file_name_container" />
+
+</RelativeLayout>

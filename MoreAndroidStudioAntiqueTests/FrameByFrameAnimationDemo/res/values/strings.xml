@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello">Hello World, FrameAnimation!</string>
+    <string name="app_name">FrameAnimation</string>
+    <string name="frame">Frame By Frame Animation of 10 Dukes</string>
+    <string name="start">Start Duke Animation</string>
+    <string name="desc">Animation Image</string>
+</resources>

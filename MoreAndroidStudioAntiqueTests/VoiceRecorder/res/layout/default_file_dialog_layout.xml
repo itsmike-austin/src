@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/default_directory_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <TextView
+            android:id="@+id/default_directory_top_level_dir_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/top_level_directory_label" />
+
+        <TextView
+            android:id="@+id/default_directory_top_level_dir"
+            android:layout_marginLeft="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/default_directory_container_separator_1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/default_directory_container"
+        android:background="#000000" />
+    
+    <LinearLayout
+        android:id="@+id/current_storage_directory_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/default_directory_container_separator_1" >
+
+        <TextView
+            android:id="@+id/current_storage_directory_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/default_directory_label" />
+
+        <TextView
+            android:id="@+id/default_directory_current_dir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/default_directory_container_separator_2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/current_storage_directory_container"
+        android:background="#000000" />
+    
+    <LinearLayout
+        android:id="@+id/default_directory_dlg_button_bar"
+        style="?android:attr/actionBarTabBarStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/default_directory_dlg_cancel_button"
+            style="?android:attr/actionButtonStyle"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="@android:string/cancel" />
+
+        <View
+            android:id="@+id/default_directory_btn_bar_divider1"
+            style="@style/AppBaseTheme"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="#000000" />
+
+        <Button
+            android:id="@+id/default_directory_dlg_ok_button"
+            style="?android:attr/actionButtonStyle"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="@android:string/ok" />
+
+        <View
+            android:id="@+id/default_directory_btn_bar_divider2"
+            style="@style/AppBaseTheme"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="#000000" />
+        
+        <Button
+            android:id="@+id/default_directory_dlg_newdir_button"
+            style="?android:attr/actionButtonStyle"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="New" />
+
+        </LinearLayout>
+
+    <View
+        android:id="@+id/default_directory_container_separator_3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@id/default_directory_dlg_button_bar"
+        android:background="#000000" />
+    
+    <ListView
+        android:id="@+id/default_directory_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/default_directory_container_separator_3"
+        android:layout_below="@id/default_directory_container_separator_2"
+        android:layout_centerVertical="true" >
+    </ListView>
+
+</RelativeLayout>

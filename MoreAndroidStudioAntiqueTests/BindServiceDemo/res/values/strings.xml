@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BindServiceDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="service_name">Local Word Service</string>
+    <string name="hello">Hello</string>
+    <string name="update_label">Update</string>
+
+</resources>

@@ -1,0 +1,159 @@
+package com.example.voicerecorder;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+
+import android.app.Dialog;
+import android.content.Context;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.Button;
+import android.widget.ListView;
+import android.widget.TextView;
+import android.widget.Toast;
+
+public class FileListDialog extends Dialog
+{
+	
+	private ArrayList<FileData> objects = null;
+	
+	private String  basePath;
+	private Context context;
+	
+	private FileListDialog thisDlg;
+
+	public FileListDialog(Context ctext,String path)
+	{	
+		super(ctext);
+		setContentView(R.layout.file_dialog_layout);
+		context = ctext;
+		
+		thisDlg = this;
+
+		basePath = path;
+		
+		if ( null != path )
+		{
+			buildFileList(path);
+			if ( null != objects )
+			{
+				ListView        lview   = (ListView)findViewById(R.id.output_type_selection_dialog_spinner);
+				FileDataAdapter adapter = new FileDataAdapter(context,R.layout.item_layout,objects);
+				lview.setAdapter(adapter);
+				
+		        lview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+		        	@Override public void onItemClick(AdapterView<?> parent, View view,int position, long id) {
+		        		TextView tv = (TextView)thisDlg.findViewById(R.id.file_name_string);
+		        		tv.setText(objects.get(position).getFileName());
+		        	}
+		        });
+		        
+		        Button okButton = (Button)findViewById(R.id.output_type_selection_dialog_ok_button);
+		        Button dlButton = (Button)findViewById(R.id.output_type_selection_dialog_delete_button);
+		        Button pvButton = (Button)findViewById(R.id.output_type_selection_dialog_preview_button);
+		        Button qtButton = (Button)findViewById(R.id.output_type_selection_dialog_quit_button);
+		        
+		        okButton.setOnClickListener(new Button.OnClickListener() {
+		        	@Override public void onClick(View v) { thisDlg.dismiss(); }
+		        });
+		        
+		        dlButton.setOnClickListener(new Button.OnClickListener() {
+		        	@Override public void onClick(View v)
+		        	{
+		        		TextView tv    = (TextView)thisDlg.findViewById(R.id.file_name_string);
+		        		CharSequence fcName = tv.getText();
+		        		if ( 0 < fcName.length() )
+		        		{
+		        			try {
+		        				deleteFile(fcName.toString());
+		        			}catch ( IllegalArgumentException i ) {
+		        				(Toast.makeText(context,i.getLocalizedMessage(),Toast.LENGTH_SHORT)).show();
+		        			}
+		        		}
+		        		thisDlg.dismiss();
+		        	}
+		        });
+		        
+		        pvButton.setOnClickListener(new Button.OnClickListener() {
+		        	@Override public void onClick(View v)
+		        	{
+		        		TextView tv = (TextView)thisDlg.findViewById(R.id.file_name_string);
+		        		CharSequence fcName = tv.getText();
+		        		if( 0 < fcName.length() )
+		        		{
+		        			previewFile(fcName.toString());
+		        		}
+		        		thisDlg.dismiss();
+		        	}
+		        });
+		        
+		        qtButton.setOnClickListener(new Button.OnClickListener() {
+		        	@Override public void onClick(View v) { thisDlg.dismiss(); }
+		        });
+			}
+		}
+	}
+	
+	private void deleteFile(String fName) throws IllegalArgumentException
+	{
+		//XXX: This needs to be placed and fleshed out!
+		return;
+	}
+	
+	private void previewFile(String fName)
+	{
+		//XXX: This needs to be placed and fleshed out!
+		return;
+	}
+	
+	private void buildFileList(String path)
+	{
+		objects = null;
+		
+		if ( null == path ) return;
+		
+		File     fpath     = null; // new File(path);
+		String[] sNameList = null;
+		
+		if ( null != (fpath=new File(path)) && null != (sNameList=fpath.list()) )
+		{
+			ArrayList<String> fFileList = new ArrayList<String>();
+			ArrayList<String> fDirList  = new ArrayList<String>();
+			
+			for( int i=0 ; i < sNameList.length ; ++i )
+			{
+				if ( (new File(sNameList[i])).isDirectory() ) {
+					fDirList.add(sNameList[i]);
+				}else{
+					fFileList.add(sNameList[i]);
+				}
+			}
+			
+			if ( fDirList.size()  > 0 ) Collections.sort(fDirList,new NameListComparator());
+			if ( fFileList.size() > 0 ) Collections.sort(fFileList,new NameListComparator());
+			
+			int bumpCount  = (0 == path.compareTo(basePath) ? 0 : 1);
+			int listLength = bumpCount + fDirList.size() + fFileList.size();
+			
+			objects = new ArrayList<FileData>();
+			
+			if( 0 < listLength )
+			{
+				if ( 0   != bumpCount )                                                                  objects.add(new FileData("Up",R.drawable.return_arrow));
+				for( int i=bumpCount                      ; i < fFileList.size() + bumpCount ; ++i )     objects.add(new FileData(fFileList.get(i),R.drawable.paper));
+				for( int i=bumpCount+fFileList.size(),j=0 ; i < listLength                   ; ++i,++j ) objects.add(new FileData(fDirList.get(j), R.drawable.folder));
+			}
+		}
+	}
+	
+    private class NameListComparator implements Comparator<String> {
+    	@Override
+    	public int compare(String n1,String n2)
+    	{
+    		return n1.compareToIgnoreCase(n2);
+    	}
+    }
+
+}

@@ -1,0 +1,54 @@
+package com.example.voicerecorder;
+
+import java.util.ArrayList;
+
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+class FileDataAdapter extends ArrayAdapter<FileData>
+{
+	// Data collection used by the adapter
+	
+	private ArrayList<FileData> objects;
+	
+	// Primary constructor
+	
+	public FileDataAdapter(Context context,int nResourceId,ArrayList<FileData> objects)
+	{
+		super(context,nResourceId,objects);
+		this.objects = objects;
+	}
+	
+	// Required getView method.
+	
+	public View getView(int position,View convertView,ViewGroup parent)
+	{
+		View v = convertView;
+		
+		if ( null == v )
+		{
+			LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+			v = inflater.inflate(R.layout.item_layout,null);
+		}
+		
+		FileData i = objects.get(position);
+		
+		if ( null != i )
+		{
+			ImageView img = (ImageView)v.findViewById(R.id.start_recording);
+			TextView  txt = (TextView) v.findViewById(R.id.output_type_selection_dialog_label);
+
+			if ( null != img ) img.setImageResource(i.getImageId());
+			if ( null != txt ) txt.setText(i.getFileName());
+		}
+		
+		v.setBackgroundResource(R.drawable.blue_gradient);
+		
+		return v;
+	}
+}

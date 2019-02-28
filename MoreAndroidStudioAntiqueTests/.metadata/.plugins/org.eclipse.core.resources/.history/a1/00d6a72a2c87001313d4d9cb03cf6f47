@@ -1,0 +1,29 @@
+package com.example.voicerecorder;
+
+import android.app.Dialog;
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import android.widget.RelativeLayout;
+
+public class OutputTypeSelectionDialog extends Dialog
+{
+	DefaultAttributes.OutputFormat outList;
+	
+	String list[] = {"a","b","c"};
+	
+	public OutputTypeSelectionDialog(Context context) {
+		super(context);
+		
+		LayoutInflater inflater = this.getLayoutInflater();
+		inflater.inflate(R.layout.output_type_selection_dialog, null);
+		
+		setContentView(R.layout.output_type_selection_dialog);
+
+		ListView lv = (ListView)findViewById(R.id.output_type_selection_dialog_spinner);
+		ArrayAdapter<String> adapter = new ArrayAdapter<String>(context, android.R.layout.simple_list_item_1, list);
+		lv.setAdapter(adapter);
+		
+	}
+}

@@ -1,0 +1,51 @@
+ <RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/location_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:text="@string/file_label" />
+        
+     	<TextView
+	        android:id="@+id/current_location"
+    	    android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentTop="true"
+        	android:layout_marginLeft="60dp"
+        	android:layout_toRightOf="@id/location_label" />
+     	
+        <View 
+            android:id="@+id/location_separator"
+            android:layout_below="@id/location_label"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#0000ff" />
+     	
+        <Button 
+            style="?android:attr/buttonBarButtonStyle"
+            android:id="@+id/cancel_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/cancel_label" />
+
+        <View
+            android:id="@+id/cancel_separator"
+            android:layout_above="@id/cancel_button"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#0000ff" />
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/cancel_separator"
+            android:layout_below="@id/location_separator">
+        </ListView>
+
+</RelativeLayout>

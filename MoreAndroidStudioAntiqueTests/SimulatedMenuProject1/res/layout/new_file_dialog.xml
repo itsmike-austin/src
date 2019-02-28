@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/new_file_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlertDlg" >
+
+    <TextView
+        android:id="@+id/new_file_dialog_directory_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="@string/new_file_dialog_directory_name_label" />
+
+    <TableLayout
+        android:id="@+id/new_file_dialog_directory_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/new_file_dialog_directory_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/new_file_dialog_filename_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/new_file_dialog_directory_list"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="14dp"
+        android:text="@string/new_file_dialog_filename_label" />
+
+    <EditText
+        android:id="@+id/new_file_dialog_filename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/new_file_dialog_filename_text"
+        android:layout_centerHorizontal="true"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/new_file_dialog_ok_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/new_file_dialog_filename"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="15dp"
+        android:layout_toLeftOf="@+id/new_file_dialog_filename_text"
+        android:text="@string/new_file_dialog_ok_button_label" />
+
+    <Button
+        android:id="@+id/new_file_dialog_cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/new_file_dialog_ok_button"
+        android:layout_alignBottom="@+id/new_file_dialog_ok_button"
+        android:layout_alignLeft="@+id/new_file_dialog_directory_list"
+        android:text="@string/new_file_dialog_cancel_button_label" />
+
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;RecordTest/res/layout/AudioDialog.xml&apos; to &apos;audio_dialog.xml&apos;" description="Rename resource &apos;AudioDialog.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/layout/AudioDialog.xml" name="audio_dialog.xml" stamp="1388640685234" updateReferences="true"/>
+</session>

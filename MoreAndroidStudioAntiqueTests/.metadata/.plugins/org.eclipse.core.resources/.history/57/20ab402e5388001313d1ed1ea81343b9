@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/raw_output_attributes_dialog"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/raw_output_attributes_dialog_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="false"
+        android:gravity="center_horizontal"
+        android:text="@string/raw_output_attributes_dialog_label_string" />
+
+    <View
+        android:id="@+id/raw_output_attributes_dialog_output_type_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/raw_output_attributes_dialog_label"
+        android:background="#000000" />
+
+    <LinearLayout
+        android:id="@+id/raw_output_attributes_dialog_button_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="false"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/raw_output_attributes_dialog_ok_button"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@android:string/cancel" />
+
+        <View
+            android:id="@+id/raw_output_attributes_button_bar_divider"
+            style="@style/AppBaseTheme"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="#000000" />
+
+        <Button
+            android:id="@+id/raw_output_attributes_dialog_cancel_button"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@android:string/ok" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/raw_output_attributes_dialog_button_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@id/raw_output_attributes_dialog_button_bar"
+        android:background="#000000" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/raw_output_attributes_dialog_button_divider"
+        android:layout_below="@id/raw_output_attributes_dialog_output_type_divider"
+        android:orientation="vertical" >
+
+        <ExpandableListView
+            android:id="@+id/expandableListView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:groupIndicator="@null" >
+        </ExpandableListView>
+
+        <TextView
+            android:id="@+id/raw_output_attributes_file_type_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/raw_output_attributes_dialog_file_container_label" />
+
+        <ListView
+            android:id="@+id/raw_output_attributes_file_type_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+
+        <View
+            android:id="@+id/raw_output_attributes_sample_rate_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/raw_output_attributes_sample_rate_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/raw_output_attributes_dialog_sample_rate_container_label" />
+
+        <ListView
+            android:id="@+id/raw_output_attributes_sample_rate_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+
+        <View
+            android:id="@+id/raw_output_attributes_channel_type_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/raw_output_attributes_channel_type_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/raw_output_attributes_dialog_channel_container_label" />
+
+        <ListView
+            android:id="@+id/raw_output_attributes_channel_type_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+
+        <View
+            android:id="@+id/raw_output_attributes_bit_count_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/raw_output_attributes_bit_count_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/raw_output_attributes_dialog_bits_container_label" />
+
+        <ListView
+            android:id="@+id/raw_output_attributes_bit_count_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">tid1</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="file_label">Location:</string>
+    <string name="cancel_label">Cancel</string>
+    <string name="dialog_label">Get Files</string>
+
+</resources>

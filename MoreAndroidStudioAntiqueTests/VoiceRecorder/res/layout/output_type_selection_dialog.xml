@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/output_type_selection_dialog_button_bar"
+        style="?android:attr/actionBarTabBarStyle"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:dividerPadding="8dp"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/output_type_selection_dialog_cancel_button"
+            style="?android:attr/actionButtonStyle"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@android:string/cancel" />
+<!--
+        <View
+            android:id="@+id/output_selection_type_button_bar_divider"
+            style="@style/AppBaseTheme"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="#000000" />
+        
+        <Button
+            android:id="@+id/output_type_selection_ok_button"
+            style="?android:attr/actionButtonStyle"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@android:string/ok" />
+-->
+    </LinearLayout>
+
+    <View
+            android:id="@+id/output_type_selection_dialog_button_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_above="@id/output_type_selection_dialog_button_bar"
+            android:background="#000000" />
+
+    <ListView
+        android:id="@+id/output_type_selection_dialog_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/output_type_selection_dialog_button_divider"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+    </ListView>
+    
+</RelativeLayout>
