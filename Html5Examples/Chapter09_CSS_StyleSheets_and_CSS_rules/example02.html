@@ -1,0 +1,22 @@
+<!-- Accessing all style sheets (CSSStylesheet objects) in the DOM -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <link href="#" rel="stylesheet" type="text/css">
+
+    <style>
+      body{background-color:red;}
+    </style>
+  </head>
+  <body>
+
+    <script>
+      var d = document;
+
+      d.write("styleSheets.length: " + d.styleSheets.length + "<br>");
+      d.write("styleSheets[0]:     " + d.styleSheets[0]     + "<br>");
+      d.write("styleSheets[1]:     " + d.styleSheets[1]);
+    </script>
+  </body>
+</html>

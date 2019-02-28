@@ -1,0 +1,28 @@
+<!-- The value of this when using addEventListener -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+
+    <div>click me</div>
+
+    <script>
+
+      document.addEventListener('click',function(event){
+        document.write("currentTarget: " + event.currentTarget + "<br>");
+        document.write("value of this: " + this + "<br>");
+      },false);
+
+      document.body.addEventListener('click',function(event){
+        document.write("currentTarget: " + event.currentTarget + "<br>");
+        document.write("value of this: " + this + "<br>");
+      },false);
+
+      document.querySelector('div').addEventListener('click',function(event){
+        document.write("currentTarget: " + event.currentTarget + "<br>");
+        document.write("value of this: " + this + "<br>");
+      },false);
+
+    </script>
+  </body>
+</html>
+

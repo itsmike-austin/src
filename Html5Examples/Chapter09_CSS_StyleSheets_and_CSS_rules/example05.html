@@ -1,0 +1,19 @@
+<!-- CSSStyleRule Properties and Methods -->
+<!DOCTYPE html>
+<html lang="en">
+  <style id="styleElement">
+    body{background-color:#fff;}
+  </style>
+  <body>
+    <script>
+      var styleSheetRule = document.querySelector("#styleElement").sheet.cssRule;
+
+      if ( undefined == styleSheetRule ) {
+        document.write("Empty Style Sheet Rules<br>");
+      }else{
+        document.write("Got style sheet rules<br>");
+      }
+
+    </script>
+  </body>
+</html>

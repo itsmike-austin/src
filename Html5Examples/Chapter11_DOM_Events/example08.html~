@@ -1,0 +1,16 @@
+<!-- Referencing the target of an event and not the node or object the event is invoked on -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+
+    <div>click me</div>
+
+    <script>
+
+      document.body.addEventListener('click',function(event){
+        d.write("target: " + event.target + "<br>");
+      },false);
+
+    </script>
+  </body>
+</html>

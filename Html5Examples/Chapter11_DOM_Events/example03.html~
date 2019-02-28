@@ -1,0 +1,37 @@
+<!-- The Event Flow -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+
+    <div>click me to start event flow</div>
+
+    <script>
+
+      var d = document;
+
+      window.addEventListener('click',function(){d.write("1<br>");});
+
+      d.addEventListener('click',function(){d.write("2<br>");});
+
+      d.documentElement.addEventListener('click',function(){d.write("3<br>");});
+
+      d.body.addEventListener('click',function(){d.write("4<br>");});
+
+      d.querySelector('div').addEventListener('click',function(){d.write("5<br>");});
+
+      d.querySelector('div').addEventListener('click',function(){d.write("6<br>");});
+
+      d.body.addEventListener('click',function(){d.write("7<br>");});
+
+      d.documentElement.addEventListener('click',function(){d.write("8<br>");});
+
+      window.addEventListener('click',function(){d.write("10<br>");});
+
+      d.write("Done<br><br>");
+
+    </script>
+  </body>
+</html>
+
+
+      

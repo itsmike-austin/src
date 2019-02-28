@@ -1,0 +1,23 @@
+<!-- Create DOM structure by creating a text node -->
+<!DOCTYPE html>
+<html lang="en">
+
+  <body>
+
+    <div></div>
+
+    <script>
+
+      var d = document;
+      var elementNode = d.createElement('p');
+      var textNode    = d.createTextNode('Hi');
+
+      elementNode.appendChild(textNode);
+      d.querySelector('div').appendChild(elementNode);
+
+      d.write("<strong>Creating DOM structure by creating a text node</strong><br><br>");
+
+      d.write("innerHTML: " + d.querySelector('div').innerHTML);
+    </script>
+  </body>
+</html>

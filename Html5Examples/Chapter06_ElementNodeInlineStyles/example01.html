@@ -1,0 +1,29 @@
+<!-- Style Attribute (aka element inline CSS properties) Overview -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+
+    <div style="background-color:red;border:1px solid black;height:100px;width:100px;"></div>
+
+    <br><br>
+
+    <script>
+      var d = document;
+
+      d.write("<strong>Inline CSS Property Overview</strong><br>");
+      d.write("Dump the Style<br><br>");
+
+      var divStyle = d.querySelector('div').style;
+
+      d.write("Style: " + divStyle + "<br>");
+
+      var divKeys = Object.keys(divStyle);
+      var divLen  = divKeys.length;
+
+      for( var i = 0 ; i < divLen ; ++i ) {
+        d.write("Style[" + i + "]: " + divStyle[divKeys[i]] +
+	        " ::Value: " + divStyle[divStyle[divKeys[i]]] + "<br>");
+      }
+    </script>
+  </body>
+</html>

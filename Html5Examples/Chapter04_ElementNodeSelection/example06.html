@@ -1,0 +1,27 @@
+<!-- Verify an element will be selected using matchesSelector() -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+
+    <ul>
+      <li>Hello</li>
+      <li>world</li>
+    </ul>
+
+    <br><br>
+
+    <script>
+
+      var d = document;
+
+      d.write("<strong>Verify an element will be selected using matchesSelector</strong><br><br>");
+
+      d.write("mozMatchesSelector(li:first-child): " + d.querySelector('li').mozMatchesSelector('li:first-child') + "<br>");
+
+      d.write("<br><br>");
+
+      d.write("<strong>This is implementation specific</strong><br>");
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+<!-- Leaving a fragments containing nodes in memory by cloning -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+
+    <ul></ul>
+
+    <script>
+
+      var d = document;
+
+      var ulElm   = d.querySelector('ul');
+      var docFrag = d.createDocumentFragment();
+
+      var colors = ["blue","green","red","blue","pink"];
+      var colkey = Object.keys(colors);
+      var collen = colkey.length;
+
+      d.write("<strong>Leaving a fragments containing nodes in memory by cloning</strong><br><br>");			   
+
+      for( var i = 0 ; i < collen ; ++i ) {
+        var li = d.createElement('li');
+        li.textContent = colors[colkey[i]];
+        docFrag.appendChild(li);
+      }
+
+      ulElm.appendChild(docFrag.cloneNode(true));
+
+      d.write(d.querySelector('ul').innerHTML);
+      d.write(docFrag.childNodes);
+
+    </script>
+  </body>
+</html>

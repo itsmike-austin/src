@@ -1,0 +1,31 @@
+<!-- Getting and Setting pixels scrolled from the top and left using scrollTop and scrollLeft -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      div{height:100px;width:100px;overflow:auto;}
+      p{height:1000px;width:1000px;background-color:red;}
+    </style>
+  </head>
+  <body>
+
+    <div><p></p></div>
+
+    <br><br><br><br>
+
+    <script>
+      var d = document;
+
+      d.write("<strong>Getting and Setting Pixels scrolled from the top and left using scrollTop and scrollLeft</strong><br>");
+      d.write("Change from 1000px in style to 750px using script<br><br>");
+
+      var div = document.querySelector('div');
+
+      div.scrollTop = 750;
+      div.scrollLeft = 750;
+
+      d.write("ScrollTop:  " + div.scrollTop + "<br>" +
+              "ScrollLeft: " + div.scrollLeft);
+    </script>
+  </body>
+</html>

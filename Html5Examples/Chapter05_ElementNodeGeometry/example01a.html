@@ -1,0 +1,27 @@
+<!-- Getting an elements offsetTop and offsetLeft values relative to offsetParent -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body{margin:0;}
+      #blue{height:100px;width:100px;background-color:blue;border:10px solid gray;padding 25px;margin 10px;}
+      #red{height:50px;width:50px;background-color:red;border:10px solid gray;}
+    </style>
+  </head>
+  <body>
+    <div id="blue"><div id="red"></div></div>
+    <br><br>
+
+    <script>
+
+      var d = document;
+      var div = d.querySelector("#red");
+
+      d.write("<strong>Building relative offsetLeft and offsetRight values</strong><br><br>");
+
+      d.write("offsetLeft:   " + div.offsetLeft   + "<br>");
+      d.write("offsetTop:    " + div.offsetTop    + "<br>");
+      d.write("offsetParent: " + div.offsetParent + "<br>");
+    </script>
+  </body>
+</html>

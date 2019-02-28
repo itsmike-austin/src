@@ -1,0 +1,23 @@
+<!-- Selecting A Specific Element Node -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <ul>
+      <li>Hello</li>
+      <li>big</li>
+      <li>bad</li>
+      <li id="last">world</li>
+    </ul>
+
+    <br><br>
+
+    <script>
+      var d = document;
+
+      d.write("<strong>Selecting A Specific Element Node</strong><br><br>");
+
+      d.write("querySelector(li).textContent:    " + d.querySelector('li').textContent + "<br>");
+      d.write("getElementById(last).textContent: " + d.getElementById('last').textContent + "<br>");
+    </script>
+  </body>
+</html>

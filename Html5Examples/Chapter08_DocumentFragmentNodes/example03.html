@@ -1,0 +1,30 @@
+<!-- Adding a DocumentFragment to the live DOM -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+
+    <ul></ul>
+    <br><br>
+
+    <script>
+      var d       = document;
+      var ulElm   = d.querySelector('ul');
+      var docFrag = d.createDocumentFragment();
+
+      var colors  = ["blue","green","red","blue","pink"];
+      var colkey  = Object.keys(colors);
+      var collen  = colkey.length;
+
+      for( var i = 0 ; i < collen ; ++i ) {
+        var li = d.createElement('li');
+        li.textContent = colors[colkey[i]];
+        docFrag.appendChild(li);
+      }
+
+      ulElm.appendChild(docFrag);
+
+      // d.write(d.body.innerHTML);
+    </script>
+  </body>
+</html>
+

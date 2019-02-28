@@ -1,0 +1,46 @@
+<!-- The Event Flow -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+
+    <div>click me to start event flow</div>
+
+    <script>
+      var d = document;
+
+      window.addEventListener('click',function(){d.write("1<br>");},true);
+
+      //2 capture phase
+      document.addEventListener('click',function(){d.write("2<br>");},true);
+
+      //3 capture phase
+      document.documentElement.addEventListener('click',function(){d.write("3<br>");},true);
+
+      //4 capture phase
+      document.body.addEventListener('click',function(){d.write("4<br>");},true);
+
+      //5 target phase occurs during capture phase
+      document.querySelector('div').addEventListener('click',function(){d.write("5<br>");},true);
+
+      //6 target phase occurs during bubbling phase
+      document.querySelector('div').addEventListener('click',function(){d.write("6<br>");},false);
+
+      //7 bubbling phase
+      document.body.addEventListener('click',function(){d.write("7");},false);
+
+      //8 bubbling phase
+      document.documentElement.addEventListener('click',function(){d.write("8");},false);
+
+      //9 bubbling phase
+      document.addEventListener('click',function(){d.write("9");},false);
+
+      //10 bubbling phase
+      window.addEventListener('click',function(){d.write("10")},false);
+      d.write("Done");
+
+    </script>
+  </body>
+</html>
+
+
+      

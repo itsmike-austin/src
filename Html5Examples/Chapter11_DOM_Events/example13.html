@@ -1,0 +1,23 @@
+<!-- Simulating/Triggering mouse events -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+
+    <div>no need to click, we programatically trigger it</div>
+
+    <script>
+
+      var divElement = document.querySelector('div');
+
+      divElement.addEventListener('click',function(event){
+        d.write(Object.keys(event));
+      },false);
+
+      var simulateDivClick = document.createEvent('MouseEvents');
+
+      simulateDivClick.initMouseEvent('click',true,true,document.defaultView,0,0,0,0,0,false,false,false);
+
+      divElement.dispatchEvent(simulateDivClick);
+    </script>
+  </body>
+</html>

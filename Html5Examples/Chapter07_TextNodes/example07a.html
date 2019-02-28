@@ -1,0 +1,24 @@
+<!-- Multiple Sibling Text Nodes -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+
+    <div></div>
+
+    <script>
+      var d = document;
+      var pElementNode  = d.createElement('p');
+      var textNodeHi    = d.createTextNode('Hi ');
+      var textNodeCody  = d.createTextNode('Cody');
+
+      pElementNode.appendChild(textNodeHi);
+      pElementNode.appendChild(textNodeCody);
+
+      d.write("<strong>Multiple Sibling Text Nodes from Code</strong><br><br>");
+
+      d.querySelector('div').appendChild(pElementNode);
+
+      d.write("number of created text nodes: " + d.querySelector('div p').childNodes.length + "<br>");
+    </script>
+  </body>
+</html>

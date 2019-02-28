@@ -1,0 +1,24 @@
+<!-- Get the client rectangle size using offsetHeight and offsetWidth -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      div{height:25px;width:25px;background-color:red;border:25px solid gray;padding:25px;}
+    </style>
+  </head>
+  <body>
+    <div></div>
+    <br>
+
+    <script>
+      var d = document;
+
+      d.write("<strong>Get the client rectangle size using offsetHeight and offsetWidth</strong><br>");
+
+      var div = d.querySelector('div');
+
+      d.write("<br>height: " + div.offsetHeight +
+              "<br>width:  " + div.offsetWidth);
+    </script>
+  </body>
+</html>

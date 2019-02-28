@@ -1,0 +1,25 @@
+<!-- Using innerHTML on documentFragment -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+
+    <script>
+      var d = document;
+
+      var divElm  = d.createElement('div');
+      var docFrag = d.createDocumentFragment();
+
+      divElm.innerHTML = '<ul><li>foo</li><li>var</li></ul>';
+
+      docFrag.appendChild(divElm);
+
+      d.write("<strong>Using innerHTML on documentFragment</strong><br><br>");
+
+      d.write("number of li in docFrag: " + docFrag.querySelectorAll('li').length + "<br>");
+
+      d.querySelector('body').appendChild(divElm);
+
+    </script>
+  </body>
+</html>
+

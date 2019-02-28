@@ -1,0 +1,28 @@
+<!-- Getting an elements top, right, bottom and left border edge
+     offset relative to viewport using getBoundingClientRect() -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body{margin:0;}
+      div{height:50px;width:50px;background-color:red;border:10px solid gray;margin:100px}
+    </style>
+  </head>
+  <body>
+    <div></div>
+
+    <script>
+      var d = document;
+
+      d.write("<strong>Getting an elements boundaries using getBoundingClientRect()</strong><br><br>");
+
+      var divEdges = d.querySelector('div').getBoundingClientRect();
+
+      d.write("top:    " + divEdges.top    + "<br>" +
+              "right:  " + divEdges.right  + "<br>" +
+              "bottom: " + divEdges.bottom + "<br>" +
+              "left:   " + divEdges.left   + "<br>");
+    </script>
+  </body>
+</html>
+

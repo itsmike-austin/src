@@ -1,0 +1,25 @@
+<!-- White space creates text nodes -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+
+    <p id="p1"></p>
+    <p id="p2"> </p>
+    <br><br>
+
+    <script>
+      var d = document;
+
+      var child1 = d.querySelector("#p1").firstChild;
+      var child2 = d.querySelector("#p2").firstChild;
+
+      d.write("<strong>White Space Creates Text</strong><br><br>");
+
+      d.write("Text Child with No White Space<br>");
+      d.write("firstChild: " + child1 + "<br><br>");
+
+      d.write("Text Child Created by a Single Space Charater<br>");
+      d.write("firstChild: " + child2);
+    </script>
+  </body>
+</html>

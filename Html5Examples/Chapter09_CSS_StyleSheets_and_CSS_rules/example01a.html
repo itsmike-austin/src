@@ -1,0 +1,21 @@
+<!-- CSS Style sheet overview -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <style id="styleElement">
+      body{background-color:#fff;}
+    </style>
+
+  </head>
+  <body>
+
+    <script>
+
+      var d = document;
+
+      d.write("styleElement.sheet.constructor:             " + d.querySelector('#styleElement').sheet.constructor + "<br>");
+      d.write("styleElement.sheet.cssRules[0].constructor: " + d.querySelector('#styleElement').sheet.cssRules[0].constructor);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+<!-- Disabling/Enabling Style Sheets using disabled property -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link id="linkElement" href="http://#" rel="stylesheet" type="text/css">
+
+    <style id="styleElement">
+      body{color:red;}
+    </style>
+  </head>
+  <body>
+
+    <p>Default Style is RED</p>
+
+    <script>
+      var d = document;
+
+      d.querySelector('#linkElement').disabled;
+      d.querySelector('#styleElement').disabled;
+
+      document.document.querySelector('#linkElement').disabled = true;
+      document.document.querySelector('#styleElement').disabled = true;
+
+    </script>
+  </body>
+</html>
+
+
+      

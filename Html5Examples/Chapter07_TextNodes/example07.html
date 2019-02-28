@@ -1,0 +1,20 @@
+<!-- When multiple sibling TextNodes occur -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <p>Hi, <strong>cody</strong> welcome!</p>
+
+    <script>
+      var d = document;
+      var pElement = d.querySelector('p');
+
+      d.write("<strong>Manipulating Multiple Sibling TextNodes</strong><br><br>");
+
+      d.write("childNodes.length:      " + pElement.childNodes.length + "<br>");
+
+      d.write("firstChild.data:        " + pElement.firstChild.data + "<br>");
+      d.write("firstChild.nextSibling: " + pElement.firstChild.nextSibling + "<br>");
+      d.write("lastChild.data:         " + pElement.lastChild.data + "<br>");
+    </script>
+  </body>
+</html>

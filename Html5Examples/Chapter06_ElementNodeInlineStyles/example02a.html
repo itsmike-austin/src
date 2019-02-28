@@ -1,0 +1,66 @@
+<!-- Getting, setting and removing individual inline CSS properties -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+    </style>
+  </head>
+  <body>
+    <div style="background-color:green;border:1px solid purple;"></div>
+    <br><br>
+
+    <script>
+      var d = document;
+
+      d.write("<strong>Getting, setting and removing individual inline CSS properties</strong><br>");
+      d.write("<br>Default<br><br>");
+
+      var divStyle = d.querySelector('div').style;
+      var divKeys = Object.keys(divStyle);
+      var divLen  = divKeys.length;
+
+      for( var i = 0 ; i < divLen ; ++i ) {
+        d.write("Style[" + i + "]: " + divStyle[divKeys[i]] +
+                " ::Value: " + divStyle[divStyle[divKeys[i]]] + "<br>");
+      }
+
+      d.write("<br><br>Set<br><br>");
+
+      // set
+
+      divStyle.backgroundColor = 'red';
+      divStyle.border          = '1px solid black';
+      divStyle.width           = '100px';
+      divStyle.height          = '100px';
+
+      for( var i = 0 ; i < divLen ; ++i ) {
+        d.write("Style[" + i + "]: " + divStyle[divKeys[i]] +
+                " ::Value: " + divStyle[divStyle[divKeys[i]]] + "<br>");
+      }
+
+      // Get
+
+      d.write("<br>Get<br><br>");
+      d.write("background-color: " + divStyle.backgroundColor + "<br>" +
+              "border:           " + divStyle.border          + "<br>" +
+              "width:            " + divStyle.width           + "<br>" +
+              "height:           " + divStyle.height          + "<br><br");
+
+      // Remove
+
+      d.write("<br><br>Remove<br><br>");
+      divStyle.backgroundColor = '';
+      divStyle.border = '';
+      divStyle.width = '';
+      divStyle.height = '';
+
+      for( var i = 0 ; i < divLen ; ++i ) {
+        d.write("Style[" + i + "]: " + divStyle[divKeys[i]] +
+                " ::Value: " + divStyle[divStyle[divKeys[i]]] + "<br>");
+      }
+    </script>
+  </body>
+</html>
+
+
+

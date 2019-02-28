@@ -1,0 +1,55 @@
+<!-- CSS Style Sheet Properties and Methods -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <style id="styleElement">
+      body{background-color:#fff;}
+    </style>
+
+    <body>
+
+      <script>
+
+	var d = document;
+
+	var basics     = d.querySelector('#styleElement');
+	var styleSheet = d.querySelector('#styleElement').sheet;
+
+	d.write("<strong>CSS Style Sheet Properties and Methods</strong><br><br>");
+
+	var basicProps = [];
+
+	for( p in styleSheet ) {
+	  basicProps.push(p);
+	}
+
+	basicProps.sort();
+	var basicKeys = Object.keys(basicProps);
+	var basicLen  = basicKeys.length;
+
+	for( var i = 0 ; i < basicLen ; ++i ) {
+          d.write("Style[" + i + "]: " + basicProps[basicKeys[i]] + "<br>");
+        }
+
+        d.write("<br>Inherited Styles<br><br>");
+
+        var inheritedProps = [];
+
+        for( var p in styleSheet ) {
+          if ( !styleSheet.hasOwnProperty(p) ) {
+            inheritedProps.push(p);
+          }
+        }
+
+       inheritedProps.sort();
+       var inheritedKeys = Object.keys(inheritedProps);
+       var inheritedLen  = inheritedKeys.length;
+
+       for( var i = 0 ; i < inheritedLen ; ++i ) {
+         d.write("Inherited Style[" + i + "]: " + inheritedProps[inheritedKeys[i]] + "<br>");
+       }
+    </script>
+  </body>
+</html>
+

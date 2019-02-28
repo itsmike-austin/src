@@ -1,0 +1,20 @@
+<!-- Custom events -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+
+    <div>click me</div>
+
+    <script>
+      var divElement = document.querySelector('div');
+
+      divElement.addEventListener('goBigBlue',function(event){
+        document.write(event.detail.goBigBlue);
+      },false);
+
+      cheer.initCustomEvent('goBigBlue',true,false,{goBigBlueIs: 'its gone!'});
+
+      divElement.dispatchEvent(cheer);
+    </script>
+  </body>
+</html>

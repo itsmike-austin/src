@@ -1,0 +1,17 @@
+<!-- DOM Events Overview -->
+<!DOCTYPE html>
+<html lang="en">
+  <body onclick="document.write('fire-trigger attribute event handler<br>')">
+
+    <div>click me</div>
+
+    <script>
+      elementDiv = document.querySelector('div');
+
+      elementDiv.onclick = function() { document.write('fire-trigger property event handler<br>'); };
+
+      elementDiv.addEventListener('click',function(){document.write('fire-trigger addEventListener<br>')});
+    </script>
+  </body>
+</html>
+

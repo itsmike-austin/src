@@ -1,0 +1,51 @@
+<!-- Nesting Lists with Custom Counters -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nesting Lists with Custom Counters</title>
+    <meta name="author" content="mikeb"/>
+    <meta name="description" content="Nesting Lists with Custom Counters"/>
+    <style>
+      body {
+        counter-reset: OuterItemCount 5 InnerItemCount;
+      }
+      #outerlist > li:before {
+        content: counter(OuterItemCount) ".";
+        counter-increment: OuterItemCount 2;
+      }
+
+      ul.innerlist > li:before {
+        content: counter(InnerItemCount,lower-alpha) ". ";
+        counter-increment: InnerItemCount;
+      }
+    </style>
+  </head>
+  <body>
+
+    I like apples and oranges. I also like:
+
+    <ul id="outerlist" style="list-style-type: none">
+      <li>bananas</li>
+      <li>mangoes, including: </li>
+        <ul class="innerlist">
+	  <li>Haden Mangoes</li>
+	  <li>Keitt mangoes</li>
+	  <li>Kent mangoes</li>
+	</ul>
+      <li>cherries</li>
+      <li>plums, including:
+	<ul class="innerlist">
+	  <li>Elephant Heart plums</li>
+	  <li>Stanley plums</li>
+	  <li>Seneca plums</li>
+	</ul>
+      </li>
+      <li>peaches</li>
+      <li>grapes</li>
+    </ul>
+
+    You can see other fruits like <a href="fruitlist.html">here</a>.
+  </body>
+</html>
+
+   

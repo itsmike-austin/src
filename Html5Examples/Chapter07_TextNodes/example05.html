@@ -1,0 +1,19 @@
+<!-- Getting a Text node value with .data or nodeValue -->
+<!DOCTYPE html>
+<html lang="en">
+
+    <p>Hi, <strong>cody</strong></p>
+
+    <body>
+
+      <script>
+	var d = document;
+
+	d.write("<strong>Getting a TextNode value with data or nodeValue attributes</strong><br><br>");
+
+	d.write("firstChild.data:      " + d.querySelector('p').firstChild.data + "<br>");
+	d.write("firstChild.nodeValue: " + d.querySelector('p').firstChild.nodeValue + "<br>");
+      </script>
+    </body>
+</html>
+

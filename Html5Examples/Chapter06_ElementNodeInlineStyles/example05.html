@@ -1,0 +1,39 @@
+<!-- Apply and remove css properties on an element using class and id attributes -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .foo {
+        background-color: red;
+        paddding: 10px;
+      }
+      #bar {
+        border: 10px solid #0000;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div></div>
+    <br><br>
+
+    <script>
+      var d = document;
+      var w = window;
+
+      var div = d.querySelector('div');
+
+      d.write("<strong>Setting Attributes using setAttribute and Adding Attributes using classList.add</strong><br><br>");
+
+      div.setAttribute('id','bar');
+      div.classList.add('foo');
+
+      d.write("Set Attribute id:  " + div.getAttribute('id') + "<br>");
+      d.write("Getting class foo: " + div.classList          + "<br>");
+    </script>
+  </body>
+</html>
+
+
+      

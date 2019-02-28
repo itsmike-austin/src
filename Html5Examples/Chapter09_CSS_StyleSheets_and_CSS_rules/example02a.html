@@ -1,0 +1,23 @@
+<!-- Accessing all style sheets in the DOM -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <link id="linkElement" href="#" rel="stylesheet" type="text/css">
+    <style id="styleElement">
+      body{background-color:#fff;}
+    </style>
+
+  </head>
+  <body>
+
+    <script>
+      var d = document;
+
+      d.write("<strong>Accessing all style sheets in the DOM</strong><br><br>");
+
+      d.write("linkElement sheet:  " + d.querySelector('#linkElement').sheet + "<br>");
+      d.write("styleElement sheet: " + d.querySelector('#styleElement').sheet);
+    </script>
+  </body>
+</html>

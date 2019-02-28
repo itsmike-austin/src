@@ -1,0 +1,72 @@
+<!-- Getting, setting and removing all inline CSS properties -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <div></div>
+    <script>
+      var d = document;
+
+      d.write("<strong>Getting setting and removing all inline CSS properties</strong><br>");
+
+      var div      = d.querySelector('div');
+      var divStyle = div.style;
+      var divKeys  = Object.keys(divStyle);
+      var divLen   = divKeys.length;
+
+      // set using cssText
+
+      d.write("Set properties using cssText<br><br>");
+
+      divStyle.cssText = 'background-color:red;border:1px solid black;height:100px;width:100px;';
+
+      d.write("cssText: " + divStyle.cssText + "<br>");
+
+      divKeys  = Object.keys(divStyle);
+      divLen   = divKeys.length;
+
+      if ( 0 < divLen ) {
+        for( var i = 0 ; i < divLen ; ++i ) {
+          d.write("Style[" + i + "]: " + divStyle[divKeys[i]] +
+                  " ::Value: " + divStyle[divStyle[divKeys[i]]] + "<br>");
+        }
+      }
+
+      d.write("<br>Removing attributes by setting cssText to null<br><br>");
+
+      div.cssText = '';
+
+      divKeys  = Object.keys(divStyle);
+      divLen   = divKeys.length;
+
+      for( var i = 0 ; i < divLen ; ++i ) {
+        d.write("Style[" + i + "]: " + divStyle[divKeys[i]] +
+                " ::Value: " + divStyle[divStyle[divKeys[i]]] + "<br>");
+      }
+
+      d.write("<br><br>Setting Style using setAttribute and getAttribute<br><br>");
+
+      div.setAttribute('style','background-color:red;border:1px solid black;height:100px;width:100px;');
+
+      divKeys  = Object.keys(divStyle);
+      divLen   = divKeys.length;
+
+      for( var i = 0 ; i < divLen ; ++i ) {
+        d.write("Style[" + i + "]: " + divStyle[divKeys[i]] +
+                " ::Value: " + divStyle[divStyle[divKeys[i]]] + "<br>");
+      }
+
+      d.write("<br><br>Removing attributes using removeAttributes()<br><br>");
+
+      div.removeAttributes('style');
+
+      divKeys  = Object.keys(divStyle);
+      divLen   = divKeys.length;
+
+      for( var i = 0 ; i < divLen ; ++i ) {
+        d.write("Style[" + i + "]: " + divStyle[divKeys[i]] +
+                " ::Value: " + divStyle[divStyle[divKeys[i]]] + "<br>");
+      }
+
+    </script>
+  </body>
+</html>

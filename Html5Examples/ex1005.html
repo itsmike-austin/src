@@ -1,0 +1,65 @@
+<!-- Using the header and footer elements -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Using the header and footer elements</title>
+    <meta name="author" content="mikeb"/>
+    <meta name="description" content="Using the header and footer elements"/>
+    <style>
+      h1, h2, h3 { background: grey; color: white; }
+      hgroup > h1 { margin-bottom: 0; margin-top:0; }
+      hgroup > h2 { background: grey;
+                    color: white;
+                    font-size: 1em;
+                    margin-top: 0px;
+                    margin-bottom: 2px; }
+      body > header *, footer > * { background: transparent; color: black; }
+      body > section, body > section > section,
+      body > section > section > section { margin-left: 10px; }
+      body > header, body > footer {
+        border: medium solid black; padding-left: 5px; margin: 10px 0 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <hgroup>
+	<h1>Fruits I Like</h1>
+	<h2>by Mike B</h2>
+      </hgroup>
+    </header>
+    <section>
+      <header>
+	<hgroup>
+	  <h1>Fruits I Like</h1>
+	  <h2>How I Learned to Love Citrus</h2>
+	</hgroup>
+      </header>
+      I like apples and oranges.
+      <section>
+	<h1>Additional Fruits</h1>
+	I also like bananas, mangoes, cherries, aprocots, plums, peaches and grapes.
+	<section>
+	  <header>
+	    <h1>Activities I Like</h1>
+	    <p>
+	      I like to swim, cycle and run. I am training for my first triathalon, but it is hard work.
+	    </p>
+	    <h1>Kinds of Triathalon</h1>
+	    There are different kinds of triathalon - sprint, Olympic and so on.
+	    <section>
+	      <h1>The kind of triathalon I am aiming for</h1>
+	      I am aiming for Olympic, which consists of the following:
+	      <ol>
+		<li>1.5km swim</li>
+		<li>40km cycle</li>
+		<li>10km run</li>
+              </ol>
+	    </section>
+	  </section>
+	</section>
+      <footer id="mainFooter">
+	&#169;2011, MikeB. <a href="apress.html">Visit Apress</a>
+      </footer>
+   </body>
+</html>

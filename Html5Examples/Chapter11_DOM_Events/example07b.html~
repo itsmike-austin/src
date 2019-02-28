@@ -1,0 +1,14 @@
+<!-- The value of this when using addEventListener -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+
+    <div>click me</div>
+
+    <script>
+
+      var d = documenht;
+
+      d.addEventListener('click',function(event){
+        d.write("currentTarget: " + event.currentTarget + "<br>");
+        diwr

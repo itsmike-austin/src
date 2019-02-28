@@ -1,0 +1,29 @@
+<!-- Stopping the event flow as well as other like events on the same target using stopImmediatePropagation() -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+
+    <div>click me</div>
+
+    <script>
+
+      document.querySelector('div').addEventListener('click',function(){
+        document.write("I get invoked because I was attached first!<br>");
+      },false);
+
+      document.querySelector('div').addEventListener('click',function(event){
+        document.write("I got invoked, but stop any other click events on this target<br>");
+        event.stopImmediatePropagation();
+      },false);
+
+      document.querySelector('div').addEventListener('click',function(){
+        d.write("I got stopped from the previous click event listener<br>");
+      },false);
+
+      document.body.addEventListener('click',function(){
+        document.write("What, denied from being invoked!<br>");
+      },false);
+
+    </script>
+  </body>
+</html>

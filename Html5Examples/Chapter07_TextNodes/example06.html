@@ -1,0 +1,26 @@
+<!-- Manipulating Text nodes with appendData(), deleteData(), insertData(), replaceData(), subStringData() -->
+<!DOCTYPE html>
+<html lang="en">
+  <p>Go big Blue Blue<body>
+
+      <script>
+	var d = document;
+	var pElementText = d.querySelector('p').firstChild;
+
+	d.write("<strong>Functions for Manipulating TextNodes</strong><br><br>");
+
+	pElementText.appendData('!');
+	d.write("appendData: " + pElementText.data + "<br>");
+
+	pElementText.insertData(7,'Blue ');
+	d.write("insertData: " + pElementText.data + "<br>");
+
+	pElementText.replaceData(7,5,'Bunny ');
+	d.write("replaceData: " + pElementText.data + "<br>");
+
+	d.write("substringData: " + pElementText.substringData(7,10) + "<br>");
+      </script>
+  </body>
+</html>
+
+    

@@ -1,0 +1,14 @@
+<!-- The value of this when using addEventListener -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+
+    <div>click me</div>
+
+    <script>
+      document.querySelector('div').addEventListener('click',function(){
+        document.write("this: " + this + "<br>");
+      },false);
+    </script>
+  </body>
+</html>

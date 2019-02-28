@@ -1,0 +1,25 @@
+<!-- Creating DocumentFragment's using createDocumentFragment() -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <script>
+      var d = document;
+      var docFrag = d.createDocumentFragment();
+
+      var colors = ["blue","green","red","blue","pink"];
+      var colkey = Object.keys(colors);
+      var collen = colkey.length;
+
+      for( var i = 0 ; i < collen ; ++i ) {
+        var li = document.createElement('li');
+        li.textContent = colors[colkey[i]] + "<br>";
+        docFrag.appendChild(li);
+      }
+
+      d.write("<strong>Using createDocumentFragment</strong><br><br>");
+
+      d.write(docFrag.textContent);
+    </script>
+  </body>
+</html>
+

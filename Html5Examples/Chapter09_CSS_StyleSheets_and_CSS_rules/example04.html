@@ -1,0 +1,32 @@
+<!-- CSSStyleRule Overview -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <style id="styleElement">
+      body{background-color:#fff;margin:20px;}
+      p{line-height:1.4em;color:blue;}
+    </style>
+
+  </head>
+
+  <body>
+
+    <script>
+
+      var d = document;
+
+      var sSheet = document.querySelector('#styleElement');
+
+      d.write("<strong>CSS Style Rule Overview</strong><br><br>");
+
+      var rules0 = sSheet.cssRules[0].cssText;
+      var rules1 = sSheet.cssRules[1].cssText;
+
+      d.write(sSheet.cssRules[0].cssText + "<br>");
+
+      d.write("cssSheet[1]: " + sSheet.cssRules[1].cssText);
+
+    </script>
+  </body>
+</html>

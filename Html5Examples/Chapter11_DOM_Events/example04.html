@@ -1,0 +1,21 @@
+<!-- Adding event listeners to Element nodes, window object and the Document Object -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+
+    <div>mouse over me</div>
+
+    <script>
+
+      var d = document;
+      var w = window;
+
+      w.addEventListener('mousemove',function(){d.write("moving over window<br>");},false);
+
+      d.addEventListener('mousemove',function(){d.write("moving over document<br>");},false);
+
+      d.querySelector('div').addEventListener('mousemove',function(){d.write("moving over div<br>");},false);
+
+    </script>
+  </body>
+</html>

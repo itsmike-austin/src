@@ -1,0 +1,16 @@
+<!-- Removing Event Listeners -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+
+    <div>click to say hi</div>
+
+    <script>
+      var d = document;
+
+      var sayHi = function() { d.write("hi<br>"); }
+
+      sayHi();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+<!-- Removing Event Listeners -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+
+    <div>click to say hi</div>
+
+    <script>
+      var d = document;
+
+      var sayHi = function() { d.write("hi<br>"); }
+
+      d.body.addEventListener('click',functio(){d.write("dude<br>");},false);
+
+      d.querySelector('div').addEventListener('click',sayHi,false);
+
+      d.querySelector('div').removeEventListener('click',sayHi,false);
+
+      d.body.removeEventListener('click',function(){d.write("dude<br>");},false);
+
+    </script>
+  </body>
+</html>

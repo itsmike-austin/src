@@ -1,0 +1,22 @@
+<!-- Getting topmost element in viewport at a specific point using elementFromPoint() -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      div{height:50px;width:50px;background-color:red;position:absolute;top:50px;left:50px;}
+    </style>
+  </head>
+  <body>
+    <div id="bottom"></div><div id="top"></div>
+    <br><br><br><br><br><br><br>
+
+    <script>
+      var d = document;
+
+      d.write("<strong>Getting topmost element in viewport at a specific point using elementFromPoint()</strong><br><br>");
+
+      d.write("Element From Point: " + d.elementFromPoint(50,50) + "<br>");
+    </script>
+  </body>
+</html>
+

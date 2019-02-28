@@ -1,0 +1,34 @@
+<!-- Combine sibling Text nodes into one text node using normalize() -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <div></div>
+    <br><br>
+
+    <script>
+      var d = document;
+
+      // Create the elements to fill in this document.
+
+      var pElementNode = d.createElement('p');
+      var textNodeHi   = d.createTextNode('Hi ')
+      var textNodeCody = d.createTextNode('Cody');
+
+      // Create the document structure.
+
+      pElementNode.appendChild(textNodeHi);
+      pElementNode.appendChild(textNodeCody);
+
+      d.querySelector('div').appendChild(pElementNode);
+
+      d.write("<strong>Combine sibling text nodes using normalize</strong><br><br>");
+
+      d.write("paragraphChildNodes.length: " + d.querySelector('p').childNodes.length + "<br>");
+
+      d.querySelector('div').normalize();
+
+      d.write("paragraphChildNodes.length after normalize: " + d.querySelector('p').childNodes.length + "<br>");
+    </script>
+  </body>
+</html>
+

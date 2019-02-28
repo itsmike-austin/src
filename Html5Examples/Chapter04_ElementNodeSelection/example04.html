@@ -1,0 +1,63 @@
+<!-- Contextual Element Selecting -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+
+    <div>
+      <ul>
+	<li class="liClass">Hello</li>
+	<li class="liClass">big</li>
+	<li class="liClass">bad</li>
+	<li class="liClass">world</li>
+      </ul>
+    </div>
+
+    <ul>
+      <li class="liClass">Hello gin</li>
+    </ul>
+
+    <br><br>
+
+    <script>
+
+      var d = document;
+
+      d.write("<strong>Contextual Element Selecting</strong><br><br>");
+
+      var div = d.querySelector('div');
+
+      d.write("querySelector(ul): " + div.querySelector('ul') + "<br>");
+
+      d.write("<br><br>");
+
+      var liArray = div.querySelectorAll('li');
+      var liKeys  = Object.keys(liArray);
+      var liLen   = liKeys.length;
+
+      for( var i = 0 ; i < liLen ; ++i ) {
+        d.write("querySelectorAll(ul:li)[" + i + "]: " + liArray[liKeys[i]] + " ::Content: " + liArray[liKeys[i]].textContent + "<br>");
+      }
+
+      d.write("<br><br>");
+
+      var tagArray = div.getElementsByTagName('li');
+      var tagKeys  = Object.keys(tagArray);
+      var tagLen   = tagKeys.length;
+
+      for( var i = 0 ; i < tagLen ; ++i ) {
+        d.write("getElementsByTagName(ul:li)[" + i + "]: " + tagArray[tagKeys[i]] + " ::Content: " + tagArray[tagKeys[i]].textContent + "<br>");
+      }
+
+      d.write("<br><br>");
+
+      var classArray = div.getElementsByClassName('liClass');
+      var classKeys  = Object.keys(classArray);
+      var classLen   = classKeys.length;
+
+      for( var i = 0 ; i < classLen ; ++i ) {
+        d.write("getElementsByClassName(ul:li)[" + i + "]: " + classArray[classKeys[i]] + " ::Content: " + classArray[classKeys[i]].textContent + "<br>");
+      }
+
+    </script>
+  </body>
+</html>

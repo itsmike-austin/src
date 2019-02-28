@@ -1,0 +1,23 @@
+<!-- Getting an elements size (border + padding + content) in the viewport -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      div{height:25px;width:25px;background-color:red;border:25px solid gray;padding:25px;}
+    </style>
+  </head>
+  <body>
+    <div></div>
+
+    <script>
+      var d = document;
+
+      d.write("<br><strong>Getting element size (border + padding + content) in the viewport</strong><br><br>");
+
+      var div = d.querySelector('div').getBoundingClientRect();
+
+      d.write("height: " + div.height + "; width: " + div.width + "<br>");
+    </script>
+  </body>
+</html>
+

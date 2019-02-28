@@ -1,0 +1,21 @@
+<!-- Creating new inline CSS style sheets -->
+<!DOCTYPE html>
+<html lang="en">
+  <head></head>
+  <body>
+
+    <strong>Creating New Inline CSS Style Sheets</strong><br><br>
+
+    <p>Hey <strong>Dude!</strong></p>
+
+    <script>
+
+      var styleElm = document.createElement('style');
+
+      styleElm.innerHTML = 'body{color:red}';
+
+      document.querySelector('head').appendChild(styleElm);
+
+    </script>
+  </body>
+</html>

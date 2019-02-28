@@ -1,0 +1,50 @@
+<!-- Selecting/creating a list (aka NodeList) of element nodes -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+
+    <ul>
+      <li class="liClass">Hello</li>
+      <li class="liClass">big</li>
+      <li class="liClass">bad</li>
+      <li class="liClass">world</li>
+    </ul>
+
+    <br><br>
+
+    <script>
+
+      var d = document;
+
+      d.write("<strong>Selecting or Creating a NodeList</strong><br><br>");
+
+      var allArray = d.querySelectorAll('li');
+      var allKeys  = Object.keys(allArray);
+      var allLen   = allKeys.length;
+
+      for( var i = 0 ; i < allLen ; ++i ) {
+        d.write("querySelectAll[" + i + "]: " + allArray[allKeys[i]] + " :: Content: " + allArray[allKeys[i]].textContent + "<br>");
+      }
+
+      d.write("<br><br>");
+
+      var tagArray = d.getElementsByTagName('li');
+      var tagKeys  = Object.keys(tagArray);
+      var tagLen   = tagKeys.length;
+
+      for( var i = 0 ; i < tagLen ; ++i ) {
+        d.write("getElementsByTagName[" + i + "]: " + tagArray[tagKeys[i]] + " :: Content: " + tagArray[tagKeys[i]].textContent + "<br>");
+      }
+
+      d.write("<br><br>");
+
+      var elemArray = d.getElementsByClassName('liClass');
+      var elemKeys  = Object.keys(elemArray);
+      var elemLen   = elemKeys.length;
+
+      for( var i = 0 ; i < elemLen ; ++i ) {
+        d.write("getElementsByClassName[" + i + "]: " + elemArray[elemKeys[i]] + " :: Content: " + elemArray[elemKeys[i]].textContent + "<br>");
+      }
+    </script>
+  </body>
+</html>

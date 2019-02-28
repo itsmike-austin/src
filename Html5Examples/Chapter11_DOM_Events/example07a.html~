@@ -1,0 +1,15 @@
+<!-- The value of this when using addEventListener -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+
+    <div>click me</div>
+
+    <script>
+
+      document.body.addEventListener('click',functio() {
+        document.write(this);
+      },false);
+    </script>
+  </body>
+</html>

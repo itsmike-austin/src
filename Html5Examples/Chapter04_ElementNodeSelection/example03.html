@@ -1,0 +1,29 @@
+<!-- Selecting all immediate child element nodes -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+
+    <ul>
+      <li><strong>Hi</strong></li>
+      <li>there</li>
+    </ul>
+
+    <br><br>
+
+    <script>
+      var d = document;
+      var ulElement = d.querySelector('ul').children;
+
+      d.write("<strong>Selecting Immediate Child Element Nodes with Query Selector</strong><br><br>");
+
+      var ulKeys = Object.keys(ulElement);
+      var ulLen  = ulKeys.length;
+
+      for( var i = 0 ; i < ulLen ; ++i ) {
+        d.write("ul child: " + ulElement[ulKeys[i]] + "<br>");
+      }
+
+      d.write("<br>The strong label is not a direct child of ul<br>");
+    </script>
+  </body>
+</html>

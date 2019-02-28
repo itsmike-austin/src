@@ -1,0 +1,19 @@
+<!-- Splitting a text node using splitText() -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+
+    <p>Hey Ho!</p>
+    <br><br>
+
+    <script>
+      var d = document;
+
+      d.write("<strong>Splitting a text node using splitText</strong><br><br>");
+
+      d.write("p.firstDChild.splitText(4).data: " + d.querySelector('p').firstChild.splitText(4).data + "<br>");
+
+      d.write("p.firstChild.data: " + d.querySelector('p').firstChild.textContent + "<br>");
+    </script>
+  </body>
+</html>

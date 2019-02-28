@@ -1,0 +1,27 @@
+<!-- Getting the size and element being scrolled using scrollHeight and scrollWidth -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      *{margin:0;padding:0;}
+      div{height:100px;width:100px;overflow:auto;}
+      p{height:1000px;width:1000px;background-color:red;}
+    </style>
+  </head>
+  <body>
+
+    <div><p></p></div>
+    <br><br>
+
+    <script>
+      var d = document;
+
+      d.write("<strong>Getting the size and element being scrolled using scrollHeight and scrollWidth</strong><br>");
+
+      var div = d.querySelector('div');
+
+      d.write("<br>ScrollHeight: " + div.scrollHeight +
+              "<br>ScrollWidth:  " + div.scrollWidth);
+    </script>
+  </body>
+</html>

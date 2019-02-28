@@ -1,0 +1,54 @@
+<!-- Text Object and Properties -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+
+    <p>hi</p>
+
+    <script>
+
+      var d = document;
+
+      d.write("<strong>Text Object and Properties</strong><br><br>");
+
+      var text = d.querySelector('p').firstChild;
+
+      var tsrt = Object.keys(text).sort();
+
+      var textPropertiesIncludeInherited = [];
+
+      for ( var p in text ) {
+        textPropertiesIncludeInherited.push(p);
+      }
+
+      d.write("Output all text properties<br><br>");
+
+      textPropertiesIncludeInherited.sort();
+      var textKeys = Object.keys(textPropertiesIncludeInherited);
+      var textLen  = textKeys.length;
+
+      for( var i = 0 ; i < textLen ; ++i ) {
+	d.write("textProperty: " + textPropertiesIncludeInherited[textKeys[i]] + "<br>");
+      }
+
+      var textPropertiesOnlyInherited = [];
+
+      for( var p in text ) {
+	  if ( !text.hasOwnProperty(p) ) {
+	      textPropertiesOnlyInherited.push(p);
+	  }
+      }
+
+      d.write("<br>Inherited Properties<br><br>");
+
+      var inhKeys = Object.keys(textPropertiesOnlyInherited);
+      var inhLen  = inhKeys.length;
+
+      for( var i = 0 ; i < inhLen ; ++i ) {
+	  d.write("text Property: " + textPropertiesOnlyInherited[inhKeys[i]] + "<br>");
+      }
+
+    </script>
+  </body>
+</html>
+

@@ -1,0 +1,22 @@
+<!-- CSS Style sheet overview -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <link id="linkElement" href="http://yui.yahooapis.com/3.3.0/build.cssreset/reset-min.css" rel="stylesheet" type="text/css">
+
+    <style id="styleElement">
+      body{background-color:#fff;}
+    </style>
+  </head>
+  <body>
+
+    <script>
+
+      var d = document;
+
+      d.write("linkElement constructor:  " + d.querySelector('#linkElement').constructor + "<br>");
+      d.write("linkElement styleElement: " + d.querySelector('#styleElement').constructor);
+    </script>
+  </body>
+</html>

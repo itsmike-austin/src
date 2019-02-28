@@ -1,0 +1,29 @@
+<!-- Stopping the event flow using stopPropagation() -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+
+    <div>click me</div>
+
+    <script>
+
+      document.querySelector('div').addEventListener('click',function(){
+        document.write("me too, but nothing from the event flow!");
+      },false);
+
+      document.querySelector('div').addEventListener('click',function(event){
+        document.write("invoked all click events attached, but cancel capture and buttoe event phases<br>");
+        event.stopPropagation();
+      },false);
+
+      document.querySelector('div').addEventListener('click',function(){
+        document.write("me too, but nothing from the event flow here!<br>");
+      },false);
+
+      document.body.addEventListener('click',function(){
+        document.write("What, denied from being invoked<br>");
+      },false);
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+<!-- Creating and Injecting Text Nodes -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+
+    <div></div>
+
+    <script>
+
+      var d = document;
+      var textNode = d.createTextNode('Hi');
+      d.querySelector('div').appendChild(textNode);
+
+      d.write("<strong>Create a text node for a div with code</strong><br><br>");
+
+      var tNode = d.querySelector('div');
+
+      d.write("TextNode: " + d.querySelector('div').innerHTML + "<br>");
+
+    </script>
+  </body>
+</html>

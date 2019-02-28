@@ -1,0 +1,44 @@
+<!-- Getting an elements computed styles (i.e. actuals including any from the cascade) using getComputedStyle() -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      div {
+           background-color: red;
+           border: 1px solid black;
+           height: 100px;
+           width: 100px;
+          }
+    </style>
+  </head>
+  <body>
+
+    <div style="background-color:green;border:1px solid purple;"></div>
+
+    <br><br>
+
+    <script>
+      var d   = document;
+      var w   = window;
+      var div = d.querySelector('div');
+
+      d.write("<strong>Getting an elements computed styles using getComputedStyle()</strong><br><br>");
+
+      d.write("Div Default Style: background-color:red,border:1px solid black,height:100px,width:100px<br><br>");
+
+      d.write("Changed in div def to: background-color:green,border:1px solid purple<br><br>");
+
+      d.write("Computed Background Color: " + w.getComputedStyle(div).backgroundColor + "<br>");
+
+      d.write("Computed Border:           " + w.getComputedStyle(div).border + "<br>");
+
+      d.write("Computed Height:           " + w.getComputedStyle(div).height + "<br>");
+
+      d.write("Computed Width:            " + w.getComputedStyle(div).width + "<br>");
+    </script>
+  </body>
+</html>
+
+  
+
+      

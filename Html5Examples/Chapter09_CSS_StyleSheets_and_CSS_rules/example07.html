@@ -1,0 +1,27 @@
+<!-- Using insertRule() and deleteRule() to change style sheets -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style id="styleElement">
+      p{line-height:1.4em;color:blue;}
+      p{font-size:50px;}
+    </style>
+  </head>
+  <body>
+
+    <p>Hi</p>
+
+    <script>
+      var d = document;
+
+      d.querySelector('#styleElement').sheet.insertRule('p{color:red}');
+
+      var rule = d.querySelector('#styleElement').sheet.cssRules[1].cssText;
+
+      d.write("rule: " + rule + "<br>");
+
+
+      
+    </script>
+  </body>
+</html>

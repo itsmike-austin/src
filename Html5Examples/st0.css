@@ -1,0 +1,6 @@
+@import "st1.css";
+@import "st2.css";
+a {
+    background-color: grey;
+    color: white;
+  }

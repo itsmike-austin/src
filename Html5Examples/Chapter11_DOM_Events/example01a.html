@@ -1,0 +1,25 @@
+<!-- DOM Events Overview -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+
+    <div>click me</div>
+
+    <script>
+      var d = document;
+
+      var elementDiv = document.querySelector('div');
+
+      d.write("<strong>DOM Events Overview ... Overriding Method Order</strong><br><br>");
+
+      elementDiv.onclick = function() {
+        d.write("onclick: I\'m first, but I get overriden/replace<br><br>");
+      };
+
+      elementDiv.onclick = function() {
+        d.write("onclick: I win<br><br>");
+      };
+    </script>
+  </body>
+</html>
+

@@ -1,0 +1,15 @@
+<!-- Getting event properties from the event object -->
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+
+    <div>click me</div>
+
+    <script>
+      var d = document;
+
+      d.querySelector('div').addEventListener('click',function(event){
+        Object.keys(event).sort().foreach(function(item) {
+            d.write("item = "+event[item]+"<br>");
+      });
+      },false);
