@@ -1,0 +1,15 @@
+23:36:32 **** Incremental Build of configuration Debug for project ForwardList - before_begin ****
+make all 
+Building file: ../src/ForwardList - before_begin.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ForwardList - before_begin.d" -MT"src/ForwardList\ -\ before_begin.d" -o "src/ForwardList - before_begin.o" "../src/ForwardList - before_begin.cpp"
+Finished building: ../src/ForwardList - before_begin.cpp
+ 
+Building target: ForwardList - before_begin
+Invoking: GCC C++ Linker
+g++  -o "ForwardList - before_begin"  ./src/ForwardList\ -\ before_begin.o   
+Finished building target: ForwardList - before_begin
+ 
+
+23:36:33 Build Finished. 0 errors, 0 warnings. (took 581ms)
+

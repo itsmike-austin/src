@@ -1,0 +1,15 @@
+11:53:24 **** Incremental Build of configuration Debug for project Queue - push - pop ****
+make all 
+Building file: ../src/Queue - push - pop.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Queue - push - pop.d" -MT"src/Queue\ -\ push\ -\ pop.d" -o "src/Queue - push - pop.o" "../src/Queue - push - pop.cpp"
+Finished building: ../src/Queue - push - pop.cpp
+ 
+Building target: Queue - push - pop
+Invoking: GCC C++ Linker
+g++  -o "Queue - push - pop"  ./src/Queue\ -\ push\ -\ pop.o   
+Finished building target: Queue - push - pop
+ 
+
+11:53:24 Build Finished. 0 errors, 0 warnings. (took 622ms)
+

@@ -1,0 +1,6 @@
+22:44:05 **** Incremental Build of configuration Debug for project Deque - push_front ****
+make all 
+make: Nothing to be done for 'all'.
+
+22:44:05 Build Finished. 0 errors, 0 warnings. (took 299ms)
+

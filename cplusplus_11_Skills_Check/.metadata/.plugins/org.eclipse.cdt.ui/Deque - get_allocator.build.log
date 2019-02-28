@@ -1,0 +1,6 @@
+13:05:15 **** Incremental Build of configuration Debug for project Deque - get_allocator ****
+make all 
+make: Nothing to be done for 'all'.
+
+13:05:16 Build Finished. 0 errors, 0 warnings. (took 320ms)
+

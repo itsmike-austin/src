@@ -1,0 +1,6 @@
+10:11:30 **** Incremental Build of configuration Debug for project Bitset - to_string - to_ullong - to_ulong ****
+make all 
+make: Nothing to be done for 'all'.
+
+10:11:30 Build Finished. 0 errors, 0 warnings. (took 318ms)
+

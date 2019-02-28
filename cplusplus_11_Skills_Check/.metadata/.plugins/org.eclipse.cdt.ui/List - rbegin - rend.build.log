@@ -1,0 +1,15 @@
+18:19:21 **** Incremental Build of configuration Debug for project List - rbegin - rend ****
+make all 
+Building file: ../src/List - rbegin - rend.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/List - rbegin - rend.d" -MT"src/List\ -\ rbegin\ -\ rend.d" -o "src/List - rbegin - rend.o" "../src/List - rbegin - rend.cpp"
+Finished building: ../src/List - rbegin - rend.cpp
+ 
+Building target: List - rbegin - rend
+Invoking: GCC C++ Linker
+g++  -o "List - rbegin - rend"  ./src/List\ -\ rbegin\ -\ rend.o   
+Finished building target: List - rbegin - rend
+ 
+
+18:19:22 Build Finished. 0 errors, 0 warnings. (took 579ms)
+

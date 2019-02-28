@@ -1,0 +1,15 @@
+22:56:49 **** Incremental Build of configuration Debug for project Vector - data ****
+make all 
+Building file: ../src/Vector - data.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Vector - data.d" -MT"src/Vector\ -\ data.d" -o "src/Vector - data.o" "../src/Vector - data.cpp"
+Finished building: ../src/Vector - data.cpp
+ 
+Building target: Vector - data
+Invoking: GCC C++ Linker
+g++  -o "Vector - data"  ./src/Vector\ -\ data.o   
+Finished building target: Vector - data
+ 
+
+22:56:50 Build Finished. 0 errors, 0 warnings. (took 621ms)
+

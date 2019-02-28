@@ -1,0 +1,15 @@
+20:20:56 **** Incremental Build of configuration Debug for project Algorithm - any_of ****
+make all 
+Building file: ../src/Algorithm - any_of.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Algorithm - any_of.d" -MT"src/Algorithm\ -\ any_of.d" -o "src/Algorithm - any_of.o" "../src/Algorithm - any_of.cpp"
+Finished building: ../src/Algorithm - any_of.cpp
+ 
+Building target: Algorithm - any_of
+Invoking: GCC C++ Linker
+g++  -o "Algorithm - any_of"  ./src/Algorithm\ -\ any_of.o   
+Finished building target: Algorithm - any_of
+ 
+
+20:20:57 Build Finished. 0 errors, 0 warnings. (took 930ms)
+

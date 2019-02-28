@@ -1,0 +1,15 @@
+20:12:31 **** Incremental Build of configuration Debug for project Map - at ****
+make all 
+Building file: ../src/Map - at.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Map - at.d" -MT"src/Map\ -\ at.d" -o "src/Map - at.o" "../src/Map - at.cpp"
+Finished building: ../src/Map - at.cpp
+ 
+Building target: Map - at
+Invoking: GCC C++ Linker
+g++  -o "Map - at"  ./src/Map\ -\ at.o   
+Finished building target: Map - at
+ 
+
+20:12:32 Build Finished. 0 errors, 0 warnings. (took 684ms)
+

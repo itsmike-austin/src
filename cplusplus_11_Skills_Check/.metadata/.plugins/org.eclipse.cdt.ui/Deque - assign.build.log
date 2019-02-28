@@ -1,0 +1,15 @@
+10:28:31 **** Incremental Build of configuration Debug for project Deque - assign ****
+make all 
+Building file: ../src/Deque - assign.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Deque - assign.d" -MT"src/Deque\ -\ assign.d" -o "src/Deque - assign.o" "../src/Deque - assign.cpp"
+Finished building: ../src/Deque - assign.cpp
+ 
+Building target: Deque - assign
+Invoking: GCC C++ Linker
+g++  -o "Deque - assign"  ./src/Deque\ -\ assign.o   
+Finished building target: Deque - assign
+ 
+
+10:28:32 Build Finished. 0 errors, 0 warnings. (took 723ms)
+

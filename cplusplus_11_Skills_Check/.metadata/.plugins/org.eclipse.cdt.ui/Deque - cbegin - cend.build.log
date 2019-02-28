@@ -1,0 +1,15 @@
+12:15:37 **** Incremental Build of configuration Debug for project Deque - cbegin - cend ****
+make all 
+Building file: ../src/Deque - cbegin - cend.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Deque - cbegin - cend.d" -MT"src/Deque\ -\ cbegin\ -\ cend.d" -o "src/Deque - cbegin - cend.o" "../src/Deque - cbegin - cend.cpp"
+Finished building: ../src/Deque - cbegin - cend.cpp
+ 
+Building target: Deque - cbegin - cend
+Invoking: GCC C++ Linker
+g++  -o "Deque - cbegin - cend"  ./src/Deque\ -\ cbegin\ -\ cend.o   
+Finished building target: Deque - cbegin - cend
+ 
+
+12:15:38 Build Finished. 0 errors, 0 warnings. (took 621ms)
+

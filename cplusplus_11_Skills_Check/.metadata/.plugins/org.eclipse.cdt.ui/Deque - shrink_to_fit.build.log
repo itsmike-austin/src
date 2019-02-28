@@ -1,0 +1,6 @@
+23:14:41 **** Incremental Build of configuration Debug for project Deque - shrink_to_fit ****
+make all 
+make: Nothing to be done for 'all'.
+
+23:14:41 Build Finished. 0 errors, 0 warnings. (took 318ms)
+

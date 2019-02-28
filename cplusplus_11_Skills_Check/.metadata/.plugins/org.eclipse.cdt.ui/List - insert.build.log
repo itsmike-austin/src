@@ -1,0 +1,15 @@
+13:40:34 **** Incremental Build of configuration Debug for project List - insert ****
+make all 
+Building file: ../src/List - insert.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/List - insert.d" -MT"src/List\ -\ insert.d" -o "src/List - insert.o" "../src/List - insert.cpp"
+Finished building: ../src/List - insert.cpp
+ 
+Building target: List - insert
+Invoking: GCC C++ Linker
+g++  -o "List - insert"  ./src/List\ -\ insert.o   
+Finished building target: List - insert
+ 
+
+13:40:34 Build Finished. 0 errors, 0 warnings. (took 624ms)
+

@@ -1,0 +1,15 @@
+21:47:24 **** Incremental Build of configuration Debug for project Algorithm - copy_n ****
+make all 
+Building file: ../src/Algorithm - copy_n.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Algorithm - copy_n.d" -MT"src/Algorithm\ -\ copy_n.d" -o "src/Algorithm - copy_n.o" "../src/Algorithm - copy_n.cpp"
+Finished building: ../src/Algorithm - copy_n.cpp
+ 
+Building target: Algorithm - copy_n
+Invoking: GCC C++ Linker
+g++  -o "Algorithm - copy_n"  ./src/Algorithm\ -\ copy_n.o   
+Finished building target: Algorithm - copy_n
+ 
+
+21:47:25 Build Finished. 0 errors, 0 warnings. (took 872ms)
+

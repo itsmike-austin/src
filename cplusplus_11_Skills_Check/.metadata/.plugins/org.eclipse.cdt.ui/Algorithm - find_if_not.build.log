@@ -1,0 +1,15 @@
+23:13:18 **** Incremental Build of configuration Debug for project Algorithm - find_if_not ****
+make all 
+Building file: ../src/Algorithm - find_if_not.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Algorithm - find_if_not.d" -MT"src/Algorithm\ -\ find_if_not.d" -o "src/Algorithm - find_if_not.o" "../src/Algorithm - find_if_not.cpp"
+Finished building: ../src/Algorithm - find_if_not.cpp
+ 
+Building target: Algorithm - find_if_not
+Invoking: GCC C++ Linker
+g++  -o "Algorithm - find_if_not"  ./src/Algorithm\ -\ find_if_not.o   
+Finished building target: Algorithm - find_if_not
+ 
+
+23:13:18 Build Finished. 0 errors, 0 warnings. (took 873ms)
+

@@ -1,0 +1,15 @@
+21:43:34 **** Incremental Build of configuration Debug for project Map - find ****
+make all 
+Building file: ../src/Map - find.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Map - find.d" -MT"src/Map\ -\ find.d" -o "src/Map - find.o" "../src/Map - find.cpp"
+Finished building: ../src/Map - find.cpp
+ 
+Building target: Map - find
+Invoking: GCC C++ Linker
+g++  -o "Map - find"  ./src/Map\ -\ find.o   
+Finished building target: Map - find
+ 
+
+21:43:35 Build Finished. 0 errors, 0 warnings. (took 683ms)
+

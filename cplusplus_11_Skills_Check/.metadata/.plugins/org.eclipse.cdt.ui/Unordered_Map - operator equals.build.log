@@ -1,0 +1,15 @@
+23:17:49 **** Incremental Build of configuration Debug for project Unordered_Map - operator equals ****
+make all 
+Building file: ../src/Unordered_Map - operator equals.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Unordered_Map - operator equals.d" -MT"src/Unordered_Map\ -\ operator\ equals.d" -o "src/Unordered_Map - operator equals.o" "../src/Unordered_Map - operator equals.cpp"
+Finished building: ../src/Unordered_Map - operator equals.cpp
+ 
+Building target: Unordered_Map - operator equals
+Invoking: GCC C++ Linker
+g++  -o "Unordered_Map - operator equals"  ./src/Unordered_Map\ -\ operator\ equals.o   
+Finished building target: Unordered_Map - operator equals
+ 
+
+23:17:50 Build Finished. 0 errors, 0 warnings. (took 723ms)
+

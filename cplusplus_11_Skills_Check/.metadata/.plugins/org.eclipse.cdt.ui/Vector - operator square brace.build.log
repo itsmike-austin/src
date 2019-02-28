@@ -1,0 +1,6 @@
+00:31:25 **** Incremental Build of configuration Debug for project Vector - operator square brace ****
+make all 
+make: Nothing to be done for 'all'.
+
+00:31:25 Build Finished. 0 errors, 0 warnings. (took 332ms)
+

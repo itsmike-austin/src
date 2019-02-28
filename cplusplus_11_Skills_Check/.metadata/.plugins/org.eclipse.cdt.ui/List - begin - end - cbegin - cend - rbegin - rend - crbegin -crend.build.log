@@ -1,0 +1,6 @@
+20:25:16 **** Incremental Build of configuration Debug for project List - begin - end - cbegin - cend - rbegin - rend - crbegin -crend ****
+make all 
+make: Nothing to be done for 'all'.
+
+20:25:17 Build Finished. 0 errors, 0 warnings. (took 329ms)
+

@@ -1,0 +1,6 @@
+09:57:37 **** Incremental Build of configuration Debug for project Utility - copy_if_noexcept ****
+make all 
+make: Nothing to be done for 'all'.
+
+09:57:37 Build Finished. 0 errors, 0 warnings. (took 318ms)
+

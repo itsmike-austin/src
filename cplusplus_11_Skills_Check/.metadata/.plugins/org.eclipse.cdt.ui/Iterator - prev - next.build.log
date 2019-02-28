@@ -1,0 +1,15 @@
+01:21:22 **** Incremental Build of configuration Debug for project Iterator - prev - next ****
+make all 
+Building file: ../src/Iterator - prev - next.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Iterator - prev - next.d" -MT"src/Iterator\ -\ prev\ -\ next.d" -o "src/Iterator - prev - next.o" "../src/Iterator - prev - next.cpp"
+Finished building: ../src/Iterator - prev - next.cpp
+ 
+Building target: Iterator - prev - next
+Invoking: GCC C++ Linker
+g++  -o "Iterator - prev - next"  ./src/Iterator\ -\ prev\ -\ next.o   
+Finished building target: Iterator - prev - next
+ 
+
+01:21:23 Build Finished. 0 errors, 0 warnings. (took 875ms)
+

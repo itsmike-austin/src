@@ -1,0 +1,15 @@
+10:19:21 **** Incremental Build of configuration Debug for project Unordered_Set - empty ****
+make all 
+Building file: ../src/Unordered_Set - empty.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Unordered_Set - empty.d" -MT"src/Unordered_Set\ -\ empty.d" -o "src/Unordered_Set - empty.o" "../src/Unordered_Set - empty.cpp"
+Finished building: ../src/Unordered_Set - empty.cpp
+ 
+Building target: Unordered_Set - empty
+Invoking: GCC C++ Linker
+g++  -o "Unordered_Set - empty"  ./src/Unordered_Set\ -\ empty.o   
+Finished building target: Unordered_Set - empty
+ 
+
+10:19:22 Build Finished. 0 errors, 0 warnings. (took 667ms)
+

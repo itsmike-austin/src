@@ -1,0 +1,6 @@
+01:09:46 **** Incremental Build of configuration Debug for project Vector - swap ****
+make all 
+make: Nothing to be done for 'all'.
+
+01:09:46 Build Finished. 0 errors, 0 warnings. (took 323ms)
+

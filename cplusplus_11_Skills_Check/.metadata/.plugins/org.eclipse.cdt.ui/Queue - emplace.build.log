@@ -1,0 +1,6 @@
+11:11:40 **** Incremental Build of configuration Debug for project Queue - emplace ****
+make all 
+make: Nothing to be done for 'all'.
+
+11:11:41 Build Finished. 0 errors, 0 warnings. (took 315ms)
+

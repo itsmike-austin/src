@@ -1,0 +1,6 @@
+12:34:37 **** Incremental Build of configuration Debug for project Allocator ****
+make all 
+make: Nothing to be done for 'all'.
+
+12:34:38 Build Finished. 0 errors, 0 warnings. (took 329ms)
+

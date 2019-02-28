@@ -1,0 +1,15 @@
+00:10:43 **** Incremental Build of configuration Debug for project ForwardList - erase ****
+make all 
+Building file: ../src/ForwardList - erase.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ForwardList - erase.d" -MT"src/ForwardList\ -\ erase.d" -o "src/ForwardList - erase.o" "../src/ForwardList - erase.cpp"
+Finished building: ../src/ForwardList - erase.cpp
+ 
+Building target: ForwardList - erase
+Invoking: GCC C++ Linker
+g++  -o "ForwardList - erase"  ./src/ForwardList\ -\ erase.o   
+Finished building target: ForwardList - erase
+ 
+
+00:10:43 Build Finished. 0 errors, 0 warnings. (took 573ms)
+

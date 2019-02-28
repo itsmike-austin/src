@@ -1,0 +1,15 @@
+09:57:35 **** Build of configuration Debug for project Tuple - Size ****
+make all 
+Building file: ../src/Tuple.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tuple.d" -MT"src/Tuple.o" -o "src/Tuple.o" "../src/Tuple.cpp"
+Finished building: ../src/Tuple.cpp
+ 
+Building target: Tuple - Size
+Invoking: GCC C++ Linker
+g++  -o "Tuple - Size"  ./src/Tuple.o   
+Finished building target: Tuple - Size
+ 
+
+09:57:35 Build Finished. 0 errors, 0 warnings. (took 653ms)
+

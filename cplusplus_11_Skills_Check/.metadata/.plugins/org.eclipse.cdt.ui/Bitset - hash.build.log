@@ -1,0 +1,6 @@
+10:13:59 **** Incremental Build of configuration Debug for project Bitset - hash ****
+make all 
+make: Nothing to be done for 'all'.
+
+10:13:59 Build Finished. 0 errors, 0 warnings. (took 320ms)
+

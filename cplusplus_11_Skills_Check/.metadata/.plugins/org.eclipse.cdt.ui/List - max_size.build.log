@@ -1,0 +1,6 @@
+13:42:15 **** Incremental Build of configuration Debug for project List - max_size ****
+make all 
+make: Nothing to be done for 'all'.
+
+13:42:15 Build Finished. 0 errors, 0 warnings. (took 268ms)
+

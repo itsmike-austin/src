@@ -1,0 +1,15 @@
+13:27:07 **** Incremental Build of configuration Debug for project Iterator - istreambuf_iterator ****
+make all 
+Building file: ../src/Iterator - istreambuf_iterator.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Iterator - istreambuf_iterator.d" -MT"src/Iterator\ -\ istreambuf_iterator.d" -o "src/Iterator - istreambuf_iterator.o" "../src/Iterator - istreambuf_iterator.cpp"
+Finished building: ../src/Iterator - istreambuf_iterator.cpp
+ 
+Building target: Iterator - istreambuf_iterator
+Invoking: GCC C++ Linker
+g++  -o "Iterator - istreambuf_iterator"  ./src/Iterator\ -\ istreambuf_iterator.o   
+Finished building target: Iterator - istreambuf_iterator
+ 
+
+13:27:07 Build Finished. 0 errors, 0 warnings. (took 631ms)
+

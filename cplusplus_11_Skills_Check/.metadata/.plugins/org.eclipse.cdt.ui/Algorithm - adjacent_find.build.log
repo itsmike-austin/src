@@ -1,0 +1,15 @@
+01:15:56 **** Incremental Build of configuration Debug for project Algorithm - adjacent_find ****
+make all 
+Building file: ../src/Algorithm - adjacent_find.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Algorithm - adjacent_find.d" -MT"src/Algorithm\ -\ adjacent_find.d" -o "src/Algorithm - adjacent_find.o" "../src/Algorithm - adjacent_find.cpp"
+Finished building: ../src/Algorithm - adjacent_find.cpp
+ 
+Building target: Algorithm - adjacent_find
+Invoking: GCC C++ Linker
+g++  -o "Algorithm - adjacent_find"  ./src/Algorithm\ -\ adjacent_find.o   
+Finished building target: Algorithm - adjacent_find
+ 
+
+01:15:57 Build Finished. 0 errors, 0 warnings. (took 876ms)
+

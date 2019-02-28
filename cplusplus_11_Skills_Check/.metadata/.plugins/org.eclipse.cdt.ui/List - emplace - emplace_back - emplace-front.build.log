@@ -1,0 +1,15 @@
+12:15:53 **** Incremental Build of configuration Debug for project List - emplace - emplace_back - emplace-front ****
+make all 
+Building file: ../src/List - emplace - emplace_back - emplace-front.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/List - emplace - emplace_back - emplace-front.d" -MT"src/List\ -\ emplace\ -\ emplace_back\ -\ emplace-front.d" -o "src/List - emplace - emplace_back - emplace-front.o" "../src/List - emplace - emplace_back - emplace-front.cpp"
+Finished building: ../src/List - emplace - emplace_back - emplace-front.cpp
+ 
+Building target: List - emplace - emplace_back - emplace-front
+Invoking: GCC C++ Linker
+g++  -o "List - emplace - emplace_back - emplace-front"  ./src/List\ -\ emplace\ -\ emplace_back\ -\ emplace-front.o   
+Finished building target: List - emplace - emplace_back - emplace-front
+ 
+
+12:15:54 Build Finished. 0 errors, 0 warnings. (took 566ms)
+

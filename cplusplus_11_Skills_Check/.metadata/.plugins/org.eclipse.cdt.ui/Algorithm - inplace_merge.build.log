@@ -1,0 +1,6 @@
+23:58:01 **** Incremental Build of configuration Debug for project Algorithm - inplace_merge ****
+make all 
+make: Nothing to be done for 'all'.
+
+23:58:02 Build Finished. 0 errors, 0 warnings. (took 340ms)
+

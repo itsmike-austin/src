@@ -1,0 +1,15 @@
+00:28:53 **** Incremental Build of configuration Debug for project Algorithm - is_sorted ****
+make all 
+Building file: ../src/Algorithm - is_sorted.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Algorithm - is_sorted.d" -MT"src/Algorithm\ -\ is_sorted.d" -o "src/Algorithm - is_sorted.o" "../src/Algorithm - is_sorted.cpp"
+Finished building: ../src/Algorithm - is_sorted.cpp
+ 
+Building target: Algorithm - is_sorted
+Invoking: GCC C++ Linker
+g++  -o "Algorithm - is_sorted"  ./src/Algorithm\ -\ is_sorted.o   
+Finished building target: Algorithm - is_sorted
+ 
+
+00:28:54 Build Finished. 0 errors, 0 warnings. (took 883ms)
+

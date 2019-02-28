@@ -1,0 +1,15 @@
+22:50:38 **** Incremental Build of configuration Debug for project Stack - swap ****
+make all 
+Building file: ../src/Stack - swap.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Stack - swap.d" -MT"src/Stack\ -\ swap.d" -o "src/Stack - swap.o" "../src/Stack - swap.cpp"
+Finished building: ../src/Stack - swap.cpp
+ 
+Building target: Stack - swap
+Invoking: GCC C++ Linker
+g++  -o "Stack - swap"  ./src/Stack\ -\ swap.o   
+Finished building target: Stack - swap
+ 
+
+22:50:39 Build Finished. 0 errors, 0 warnings. (took 625ms)
+

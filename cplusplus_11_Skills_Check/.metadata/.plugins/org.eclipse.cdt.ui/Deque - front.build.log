@@ -1,0 +1,15 @@
+12:58:36 **** Incremental Build of configuration Debug for project Deque - front ****
+make all 
+Building file: ../src/Deque - front.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Deque - front.d" -MT"src/Deque\ -\ front.d" -o "src/Deque - front.o" "../src/Deque - front.cpp"
+Finished building: ../src/Deque - front.cpp
+ 
+Building target: Deque - front
+Invoking: GCC C++ Linker
+g++  -o "Deque - front"  ./src/Deque\ -\ front.o   
+Finished building target: Deque - front
+ 
+
+12:58:37 Build Finished. 0 errors, 0 warnings. (took 623ms)
+

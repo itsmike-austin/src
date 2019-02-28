@@ -1,0 +1,15 @@
+00:18:41 **** Incremental Build of configuration Debug for project Algorithm - is_partitioned ****
+make all 
+Building file: ../src/Algorithm - is_partitioned.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Algorithm - is_partitioned.d" -MT"src/Algorithm\ -\ is_partitioned.d" -o "src/Algorithm - is_partitioned.o" "../src/Algorithm - is_partitioned.cpp"
+Finished building: ../src/Algorithm - is_partitioned.cpp
+ 
+Building target: Algorithm - is_partitioned
+Invoking: GCC C++ Linker
+g++  -o "Algorithm - is_partitioned"  ./src/Algorithm\ -\ is_partitioned.o   
+Finished building target: Algorithm - is_partitioned
+ 
+
+00:18:42 Build Finished. 0 errors, 0 warnings. (took 978ms)
+

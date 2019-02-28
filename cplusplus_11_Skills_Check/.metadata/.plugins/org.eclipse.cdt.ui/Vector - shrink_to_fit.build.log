@@ -1,0 +1,6 @@
+01:03:07 **** Incremental Build of configuration Debug for project Vector - shrink_to_fit ****
+make all 
+make: Nothing to be done for 'all'.
+
+01:03:07 Build Finished. 0 errors, 0 warnings. (took 324ms)
+

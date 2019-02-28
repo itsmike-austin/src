@@ -1,0 +1,6 @@
+22:08:28 **** Incremental Build of configuration Debug for project Algorithm - fill ****
+make all 
+make: Nothing to be done for 'all'.
+
+22:08:29 Build Finished. 0 errors, 0 warnings. (took 307ms)
+

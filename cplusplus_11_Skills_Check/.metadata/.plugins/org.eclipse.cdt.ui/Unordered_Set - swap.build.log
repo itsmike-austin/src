@@ -1,0 +1,6 @@
+10:43:27 **** Incremental Build of configuration Debug for project Unordered_Set - swap ****
+make all 
+make: Nothing to be done for 'all'.
+
+10:43:27 Build Finished. 0 errors, 0 warnings. (took 317ms)
+

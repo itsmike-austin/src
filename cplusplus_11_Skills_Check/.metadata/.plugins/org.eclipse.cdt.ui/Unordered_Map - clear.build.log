@@ -1,0 +1,6 @@
+00:28:25 **** Incremental Build of configuration Debug for project Unordered_Map - clear ****
+make all 
+make: Nothing to be done for 'all'.
+
+00:28:25 Build Finished. 0 errors, 0 warnings. (took 328ms)
+

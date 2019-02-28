@@ -1,0 +1,15 @@
+00:10:54 **** Incremental Build of configuration Debug for project ForwardList - splice_after ****
+make all 
+Building file: ../src/ForwardList - splice_after.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ForwardList - splice_after.d" -MT"src/ForwardList\ -\ splice_after.d" -o "src/ForwardList - splice_after.o" "../src/ForwardList - splice_after.cpp"
+Finished building: ../src/ForwardList - splice_after.cpp
+ 
+Building target: ForwardList - splice_after
+Invoking: GCC C++ Linker
+g++  -o "ForwardList - splice_after"  ./src/ForwardList\ -\ splice_after.o   
+Finished building target: ForwardList - splice_after
+ 
+
+00:10:55 Build Finished. 0 errors, 0 warnings. (took 616ms)
+

@@ -1,0 +1,6 @@
+11:33:33 **** Incremental Build of configuration Debug for project Queue - operator equals ****
+make all 
+make: Nothing to be done for 'all'.
+
+11:33:33 Build Finished. 0 errors, 0 warnings. (took 319ms)
+

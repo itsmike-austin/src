@@ -1,0 +1,15 @@
+10:09:36 **** Incremental Build of configuration Debug for project Unordered_Set - begin - end - cbegin - cend - bucket_count - begin of i - end of i ****
+make all 
+Building file: ../src/Unordered_Set - begin - end - cbegin - cend - bucket_count - begin of i - end of i.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Unordered_Set - begin - end - cbegin - cend - bucket_count - begin of i - end of i.d" -MT"src/Unordered_Set\ -\ begin\ -\ end\ -\ cbegin\ -\ cend\ -\ bucket_count\ -\ begin\ of\ i\ -\ end\ of\ i.d" -o "src/Unordered_Set - begin - end - cbegin - cend - bucket_count - begin of i - end of i.o" "../src/Unordered_Set - begin - end - cbegin - cend - bucket_count - begin of i - end of i.cpp"
+Finished building: ../src/Unordered_Set - begin - end - cbegin - cend - bucket_count - begin of i - end of i.cpp
+ 
+Building target: Unordered_Set - begin - end - cbegin - cend - bucket_count - begin of i - end of i
+Invoking: GCC C++ Linker
+g++  -o "Unordered_Set - begin - end - cbegin - cend - bucket_count - begin of i - end of i"  ./src/Unordered_Set\ -\ begin\ -\ end\ -\ cbegin\ -\ cend\ -\ bucket_count\ -\ begin\ of\ i\ -\ end\ of\ i.o   
+Finished building target: Unordered_Set - begin - end - cbegin - cend - bucket_count - begin of i - end of i
+ 
+
+10:09:37 Build Finished. 0 errors, 0 warnings. (took 718ms)
+

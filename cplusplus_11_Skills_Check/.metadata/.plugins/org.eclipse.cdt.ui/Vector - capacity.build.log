@@ -1,0 +1,15 @@
+22:48:31 **** Incremental Build of configuration Debug for project Vector - capacity ****
+make all 
+Building file: ../src/Vector - capacity.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Vector - capacity.d" -MT"src/Vector\ -\ capacity.d" -o "src/Vector - capacity.o" "../src/Vector - capacity.cpp"
+Finished building: ../src/Vector - capacity.cpp
+ 
+Building target: Vector - capacity
+Invoking: GCC C++ Linker
+g++  -o "Vector - capacity"  ./src/Vector\ -\ capacity.o   
+Finished building target: Vector - capacity
+ 
+
+22:48:31 Build Finished. 0 errors, 0 warnings. (took 625ms)
+

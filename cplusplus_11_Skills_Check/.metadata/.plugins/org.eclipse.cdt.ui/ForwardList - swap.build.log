@@ -1,0 +1,6 @@
+00:16:10 **** Incremental Build of configuration Debug for project ForwardList - swap ****
+make all 
+make: Nothing to be done for 'all'.
+
+00:16:10 Build Finished. 0 errors, 0 warnings. (took 319ms)
+

@@ -1,0 +1,15 @@
+10:34:24 **** Incremental Build of configuration Debug for project Unordered_Set - clear ****
+make all 
+Building file: ../src/Unordered_Set - clear.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Unordered_Set - clear.d" -MT"src/Unordered_Set\ -\ clear.d" -o "src/Unordered_Set - clear.o" "../src/Unordered_Set - clear.cpp"
+Finished building: ../src/Unordered_Set - clear.cpp
+ 
+Building target: Unordered_Set - clear
+Invoking: GCC C++ Linker
+g++  -o "Unordered_Set - clear"  ./src/Unordered_Set\ -\ clear.o   
+Finished building target: Unordered_Set - clear
+ 
+
+10:34:25 Build Finished. 0 errors, 0 warnings. (took 669ms)
+

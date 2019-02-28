@@ -1,0 +1,6 @@
+09:57:24 **** Incremental Build of configuration Debug for project Numeric - Iota ****
+make all 
+make: Nothing to be done for 'all'.
+
+09:57:24 Build Finished. 0 errors, 0 warnings. (took 317ms)
+

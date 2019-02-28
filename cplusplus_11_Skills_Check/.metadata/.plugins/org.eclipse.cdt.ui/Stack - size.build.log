@@ -1,0 +1,15 @@
+22:45:39 **** Incremental Build of configuration Debug for project Stack - size ****
+make all 
+Building file: ../src/Stack - size.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Stack - size.d" -MT"src/Stack\ -\ size.d" -o "src/Stack - size.o" "../src/Stack - size.cpp"
+Finished building: ../src/Stack - size.cpp
+ 
+Building target: Stack - size
+Invoking: GCC C++ Linker
+g++  -o "Stack - size"  ./src/Stack\ -\ size.o   
+Finished building target: Stack - size
+ 
+
+22:45:40 Build Finished. 0 errors, 0 warnings. (took 624ms)
+

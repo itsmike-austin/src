@@ -1,0 +1,15 @@
+13:32:28 **** Incremental Build of configuration Debug for project Deque - insert ****
+make all 
+Building file: ../src/Deque - insert.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Deque - insert.d" -MT"src/Deque\ -\ insert.d" -o "src/Deque - insert.o" "../src/Deque - insert.cpp"
+Finished building: ../src/Deque - insert.cpp
+ 
+Building target: Deque - insert
+Invoking: GCC C++ Linker
+g++  -o "Deque - insert"  ./src/Deque\ -\ insert.o   
+Finished building target: Deque - insert
+ 
+
+13:32:29 Build Finished. 0 errors, 0 warnings. (took 722ms)
+

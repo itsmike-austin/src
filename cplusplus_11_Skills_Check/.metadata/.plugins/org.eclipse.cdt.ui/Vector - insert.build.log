@@ -1,0 +1,15 @@
+00:15:13 **** Incremental Build of configuration Debug for project Vector - insert ****
+make all 
+Building file: ../src/Vector - insert.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Vector - insert.d" -MT"src/Vector\ -\ insert.d" -o "src/Vector - insert.o" "../src/Vector - insert.cpp"
+Finished building: ../src/Vector - insert.cpp
+ 
+Building target: Vector - insert
+Invoking: GCC C++ Linker
+g++  -o "Vector - insert"  ./src/Vector\ -\ insert.o   
+Finished building target: Vector - insert
+ 
+
+00:15:14 Build Finished. 0 errors, 0 warnings. (took 673ms)
+

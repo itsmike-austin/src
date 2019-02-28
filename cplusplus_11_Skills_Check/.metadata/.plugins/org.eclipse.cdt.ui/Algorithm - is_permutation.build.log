@@ -1,0 +1,6 @@
+00:24:14 **** Incremental Build of configuration Debug for project Algorithm - is_permutation ****
+make all 
+make: Nothing to be done for 'all'.
+
+00:24:15 Build Finished. 0 errors, 0 warnings. (took 325ms)
+

@@ -1,0 +1,15 @@
+10:06:54 **** Incremental Build of configuration Debug for project Bitset - test ****
+make all 
+Building file: ../src/Bitset - test.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bitset - test.d" -MT"src/Bitset\ -\ test.d" -o "src/Bitset - test.o" "../src/Bitset - test.cpp"
+Finished building: ../src/Bitset - test.cpp
+ 
+Building target: Bitset - test
+Invoking: GCC C++ Linker
+g++  -o "Bitset - test"  ./src/Bitset\ -\ test.o   
+Finished building target: Bitset - test
+ 
+
+10:06:54 Build Finished. 0 errors, 0 warnings. (took 576ms)
+

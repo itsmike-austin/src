@@ -1,0 +1,6 @@
+11:17:28 **** Incremental Build of configuration Debug for project Iterator - back_inserter ****
+make all 
+make: Nothing to be done for 'all'.
+
+11:17:28 Build Finished. 0 errors, 0 warnings. (took 266ms)
+

@@ -1,0 +1,6 @@
+00:42:11 **** Incremental Build of configuration Debug for project Algorithm - iter_swap ****
+make all 
+make: Nothing to be done for 'all'.
+
+00:42:11 Build Finished. 0 errors, 0 warnings. (took 327ms)
+

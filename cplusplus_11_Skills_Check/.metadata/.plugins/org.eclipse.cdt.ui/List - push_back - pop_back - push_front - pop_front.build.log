@@ -1,0 +1,15 @@
+18:14:40 **** Incremental Build of configuration Debug for project List - push_back - pop_back - push_front - pop_front ****
+make all 
+Building file: ../src/List - push_back - pop_back - push_front - pop_front.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/List - push_back - pop_back - push_front - pop_front.d" -MT"src/List\ -\ push_back\ -\ pop_back\ -\ push_front\ -\ pop_front.d" -o "src/List - push_back - pop_back - push_front - pop_front.o" "../src/List - push_back - pop_back - push_front - pop_front.cpp"
+Finished building: ../src/List - push_back - pop_back - push_front - pop_front.cpp
+ 
+Building target: List - push_back - pop_back - push_front - pop_front
+Invoking: GCC C++ Linker
+g++  -o "List - push_back - pop_back - push_front - pop_front"  ./src/List\ -\ push_back\ -\ pop_back\ -\ push_front\ -\ pop_front.o   
+Finished building target: List - push_back - pop_back - push_front - pop_front
+ 
+
+18:14:40 Build Finished. 0 errors, 0 warnings. (took 630ms)
+

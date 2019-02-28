@@ -1,0 +1,15 @@
+21:51:17 **** Incremental Build of configuration Debug for project ForwardList - operator equals ****
+make all 
+Building file: ../src/ForwardList - operator equals.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ForwardList - operator equals.d" -MT"src/ForwardList\ -\ operator\ equals.d" -o "src/ForwardList - operator equals.o" "../src/ForwardList - operator equals.cpp"
+Finished building: ../src/ForwardList - operator equals.cpp
+ 
+Building target: ForwardList - operator equals
+Invoking: GCC C++ Linker
+g++  -o "ForwardList - operator equals"  ./src/ForwardList\ -\ operator\ equals.o   
+Finished building target: ForwardList - operator equals
+ 
+
+21:51:18 Build Finished. 0 errors, 0 warnings. (took 633ms)
+

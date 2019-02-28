@@ -1,0 +1,6 @@
+00:03:21 **** Incremental Build of configuration Debug for project ForwardList - cbefore_begin ****
+make all 
+make: Nothing to be done for 'all'.
+
+00:03:21 Build Finished. 0 errors, 0 warnings. (took 310ms)
+

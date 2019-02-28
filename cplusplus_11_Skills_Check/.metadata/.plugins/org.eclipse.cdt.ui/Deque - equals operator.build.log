@@ -1,0 +1,15 @@
+22:09:37 **** Incremental Build of configuration Debug for project Deque - equals operator ****
+make all 
+Building file: ../src/Deque - equals operator.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Deque - equals operator.d" -MT"src/Deque\ -\ equals\ operator.d" -o "src/Deque - equals operator.o" "../src/Deque - equals operator.cpp"
+Finished building: ../src/Deque - equals operator.cpp
+ 
+Building target: Deque - equals operator
+Invoking: GCC C++ Linker
+g++  -o "Deque - equals operator"  ./src/Deque\ -\ equals\ operator.o   
+Finished building target: Deque - equals operator
+ 
+
+22:09:38 Build Finished. 0 errors, 0 warnings. (took 767ms)
+

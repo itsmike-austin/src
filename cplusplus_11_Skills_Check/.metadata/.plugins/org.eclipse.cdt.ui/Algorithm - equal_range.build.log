@@ -1,0 +1,15 @@
+22:05:27 **** Incremental Build of configuration Debug for project Algorithm - equal_range ****
+make all 
+Building file: ../src/Algorithm - equal_range.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Algorithm - equal_range.d" -MT"src/Algorithm\ -\ equal_range.d" -o "src/Algorithm - equal_range.o" "../src/Algorithm - equal_range.cpp"
+Finished building: ../src/Algorithm - equal_range.cpp
+ 
+Building target: Algorithm - equal_range
+Invoking: GCC C++ Linker
+g++  -o "Algorithm - equal_range"  ./src/Algorithm\ -\ equal_range.o   
+Finished building target: Algorithm - equal_range
+ 
+
+22:05:28 Build Finished. 0 errors, 0 warnings. (took 924ms)
+

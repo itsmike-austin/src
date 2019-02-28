@@ -1,0 +1,15 @@
+00:19:57 **** Incremental Build of configuration Debug for project ForwardList - unique ****
+make all 
+Building file: ../src/ForwardList - unique.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ForwardList - unique.d" -MT"src/ForwardList\ -\ unique.d" -o "src/ForwardList - unique.o" "../src/ForwardList - unique.cpp"
+Finished building: ../src/ForwardList - unique.cpp
+ 
+Building target: ForwardList - unique
+Invoking: GCC C++ Linker
+g++  -o "ForwardList - unique"  ./src/ForwardList\ -\ unique.o   
+Finished building target: ForwardList - unique
+ 
+
+00:19:57 Build Finished. 0 errors, 0 warnings. (took 567ms)
+

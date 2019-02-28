@@ -1,0 +1,15 @@
+12:24:23 **** Incremental Build of configuration Debug for project Unordered_Set - bucket_size ****
+make all 
+Building file: ../src/Unordered_Set - bucket_size.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Unordered_Set - bucket_size.d" -MT"src/Unordered_Set\ -\ bucket_size.d" -o "src/Unordered_Set - bucket_size.o" "../src/Unordered_Set - bucket_size.cpp"
+Finished building: ../src/Unordered_Set - bucket_size.cpp
+ 
+Building target: Unordered_Set - bucket_size
+Invoking: GCC C++ Linker
+g++  -o "Unordered_Set - bucket_size"  ./src/Unordered_Set\ -\ bucket_size.o   
+Finished building target: Unordered_Set - bucket_size
+ 
+
+12:24:24 Build Finished. 0 errors, 0 warnings. (took 672ms)
+

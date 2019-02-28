@@ -1,0 +1,15 @@
+12:21:23 **** Incremental Build of configuration Debug for project Iterator - reverse_iterator ****
+make all 
+Building file: ../src/Iterator - reverse_iterator.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Iterator - reverse_iterator.d" -MT"src/Iterator\ -\ reverse_iterator.d" -o "src/Iterator - reverse_iterator.o" "../src/Iterator - reverse_iterator.cpp"
+Finished building: ../src/Iterator - reverse_iterator.cpp
+ 
+Building target: Iterator - reverse_iterator
+Invoking: GCC C++ Linker
+g++  -o "Iterator - reverse_iterator"  ./src/Iterator\ -\ reverse_iterator.o   
+Finished building target: Iterator - reverse_iterator
+ 
+
+12:21:23 Build Finished. 0 errors, 0 warnings. (took 587ms)
+

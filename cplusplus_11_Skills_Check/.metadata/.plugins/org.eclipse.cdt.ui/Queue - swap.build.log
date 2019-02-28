@@ -1,0 +1,15 @@
+12:09:33 **** Incremental Build of configuration Debug for project Queue - swap ****
+make all 
+Building file: ../src/Queue - swap.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Queue - swap.d" -MT"src/Queue\ -\ swap.d" -o "src/Queue - swap.o" "../src/Queue - swap.cpp"
+Finished building: ../src/Queue - swap.cpp
+ 
+Building target: Queue - swap
+Invoking: GCC C++ Linker
+g++  -o "Queue - swap"  ./src/Queue\ -\ swap.o   
+Finished building target: Queue - swap
+ 
+
+12:09:33 Build Finished. 0 errors, 0 warnings. (took 672ms)
+

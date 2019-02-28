@@ -1,0 +1,15 @@
+12:35:09 **** Incremental Build of configuration Debug for project Iterator - back_insert_iterator ****
+make all 
+Building file: ../src/Iterator - back_insert_iterator.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Iterator - back_insert_iterator.d" -MT"src/Iterator\ -\ back_insert_iterator.d" -o "src/Iterator - back_insert_iterator.o" "../src/Iterator - back_insert_iterator.cpp"
+Finished building: ../src/Iterator - back_insert_iterator.cpp
+ 
+Building target: Iterator - back_insert_iterator
+Invoking: GCC C++ Linker
+g++  -o "Iterator - back_insert_iterator"  ./src/Iterator\ -\ back_insert_iterator.o   
+Finished building target: Iterator - back_insert_iterator
+ 
+
+12:35:10 Build Finished. 0 errors, 0 warnings. (took 924ms)
+

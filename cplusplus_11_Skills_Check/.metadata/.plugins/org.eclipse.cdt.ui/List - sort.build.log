@@ -1,0 +1,15 @@
+18:42:18 **** Incremental Build of configuration Debug for project List - sort ****
+make all 
+Building file: ../src/List - sort.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/List - sort.d" -MT"src/List\ -\ sort.d" -o "src/List - sort.o" "../src/List - sort.cpp"
+Finished building: ../src/List - sort.cpp
+ 
+Building target: List - sort
+Invoking: GCC C++ Linker
+g++  -o "List - sort"  ./src/List\ -\ sort.o   
+Finished building target: List - sort
+ 
+
+18:42:18 Build Finished. 0 errors, 0 warnings. (took 630ms)
+

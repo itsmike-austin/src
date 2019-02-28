@@ -1,0 +1,6 @@
+09:57:46 **** Incremental Build of configuration Debug for project Valarray - sum of elements ****
+make all 
+make: Nothing to be done for 'all'.
+
+09:57:46 Build Finished. 0 errors, 0 warnings. (took 324ms)
+

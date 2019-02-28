@@ -1,0 +1,15 @@
+22:00:05 **** Incremental Build of configuration Debug for project Algorithm - equal ****
+make all 
+Building file: ../src/Algorithm - equal.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Algorithm - equal.d" -MT"src/Algorithm\ -\ equal.d" -o "src/Algorithm - equal.o" "../src/Algorithm - equal.cpp"
+Finished building: ../src/Algorithm - equal.cpp
+ 
+Building target: Algorithm - equal
+Invoking: GCC C++ Linker
+g++  -o "Algorithm - equal"  ./src/Algorithm\ -\ equal.o   
+Finished building target: Algorithm - equal
+ 
+
+22:00:06 Build Finished. 0 errors, 0 warnings. (took 873ms)
+

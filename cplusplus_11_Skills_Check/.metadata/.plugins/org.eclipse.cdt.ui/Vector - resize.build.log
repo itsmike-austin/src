@@ -1,0 +1,6 @@
+00:50:12 **** Incremental Build of configuration Debug for project Vector - resize ****
+make all 
+make: Nothing to be done for 'all'.
+
+00:50:12 Build Finished. 0 errors, 0 warnings. (took 326ms)
+

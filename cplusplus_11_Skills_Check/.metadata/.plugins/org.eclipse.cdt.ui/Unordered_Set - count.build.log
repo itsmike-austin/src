@@ -1,0 +1,6 @@
+09:32:14 **** Incremental Build of configuration Debug for project Unordered_Set - count ****
+make all 
+make: Nothing to be done for 'all'.
+
+09:32:14 Build Finished. 0 errors, 0 warnings. (took 268ms)
+

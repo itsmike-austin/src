@@ -1,0 +1,15 @@
+19:54:14 **** Incremental Build of configuration Debug for project List - splice ****
+make all 
+Building file: ../src/List - splice.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/List - splice.d" -MT"src/List\ -\ splice.d" -o "src/List - splice.o" "../src/List - splice.cpp"
+Finished building: ../src/List - splice.cpp
+ 
+Building target: List - splice
+Invoking: GCC C++ Linker
+g++  -o "List - splice"  ./src/List\ -\ splice.o   
+Finished building target: List - splice
+ 
+
+19:54:15 Build Finished. 0 errors, 0 warnings. (took 682ms)
+

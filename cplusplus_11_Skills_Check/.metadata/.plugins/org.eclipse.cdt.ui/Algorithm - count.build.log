@@ -1,0 +1,6 @@
+21:50:36 **** Incremental Build of configuration Debug for project Algorithm - count ****
+make all 
+make: Nothing to be done for 'all'.
+
+21:50:37 Build Finished. 0 errors, 0 warnings. (took 272ms)
+

@@ -1,0 +1,6 @@
+23:55:44 **** Incremental Build of configuration Debug for project ForwardList - emplace_after ****
+make all 
+make: Nothing to be done for 'all'.
+
+23:55:45 Build Finished. 0 errors, 0 warnings. (took 322ms)
+

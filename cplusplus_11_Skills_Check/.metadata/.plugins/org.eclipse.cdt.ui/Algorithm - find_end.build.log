@@ -1,0 +1,15 @@
+22:22:51 **** Build of configuration Debug for project Algorithm - find_end ****
+make all 
+Building file: ../src/Algorithm - find_end.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Algorithm - find_end.d" -MT"src/Algorithm\ -\ find_end.d" -o "src/Algorithm - find_end.o" "../src/Algorithm - find_end.cpp"
+Finished building: ../src/Algorithm - find_end.cpp
+ 
+Building target: Algorithm - find_end
+Invoking: GCC C++ Linker
+g++  -o "Algorithm - find_end"  ./src/Algorithm\ -\ find_end.o   
+Finished building target: Algorithm - find_end
+ 
+
+22:22:52 Build Finished. 0 errors, 0 warnings. (took 932ms)
+

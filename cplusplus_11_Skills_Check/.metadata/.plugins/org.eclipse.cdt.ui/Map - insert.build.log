@@ -1,0 +1,15 @@
+22:17:45 **** Incremental Build of configuration Debug for project Map - insert ****
+make all 
+Building file: ../src/Map - insert.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Map - insert.d" -MT"src/Map\ -\ insert.d" -o "src/Map - insert.o" "../src/Map - insert.cpp"
+Finished building: ../src/Map - insert.cpp
+ 
+Building target: Map - insert
+Invoking: GCC C++ Linker
+g++  -o "Map - insert"  ./src/Map\ -\ insert.o   
+Finished building target: Map - insert
+ 
+
+22:17:46 Build Finished. 0 errors, 0 warnings. (took 733ms)
+

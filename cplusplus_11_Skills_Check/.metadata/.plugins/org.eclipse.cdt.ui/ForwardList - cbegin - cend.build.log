@@ -1,0 +1,6 @@
+23:49:44 **** Incremental Build of configuration Debug for project ForwardList - cbegin - cend ****
+make all 
+make: Nothing to be done for 'all'.
+
+23:49:44 Build Finished. 0 errors, 0 warnings. (took 320ms)
+

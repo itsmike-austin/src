@@ -1,0 +1,15 @@
+22:07:56 **** Incremental Build of configuration Debug for project Unordered_Map - begin - end - cbegin - cend ****
+make all 
+Building file: ../src/Unordered_Map - begin - end - cbegin - cend.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Unordered_Map - begin - end - cbegin - cend.d" -MT"src/Unordered_Map\ -\ begin\ -\ end\ -\ cbegin\ -\ cend.d" -o "src/Unordered_Map - begin - end - cbegin - cend.o" "../src/Unordered_Map - begin - end - cbegin - cend.cpp"
+Finished building: ../src/Unordered_Map - begin - end - cbegin - cend.cpp
+ 
+Building target: Unordered_Map - begin - end - cbegin - cend
+Invoking: GCC C++ Linker
+g++  -o "Unordered_Map - begin - end - cbegin - cend"  ./src/Unordered_Map\ -\ begin\ -\ end\ -\ cbegin\ -\ cend.o   
+Finished building target: Unordered_Map - begin - end - cbegin - cend
+ 
+
+22:07:57 Build Finished. 0 errors, 0 warnings. (took 734ms)
+

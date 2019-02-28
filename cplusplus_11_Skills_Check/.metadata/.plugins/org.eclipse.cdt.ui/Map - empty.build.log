@@ -1,0 +1,15 @@
+21:18:04 **** Incremental Build of configuration Debug for project Map - empty ****
+make all 
+Building file: ../src/Map - empty.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Map - empty.d" -MT"src/Map\ -\ empty.d" -o "src/Map - empty.o" "../src/Map - empty.cpp"
+Finished building: ../src/Map - empty.cpp
+ 
+Building target: Map - empty
+Invoking: GCC C++ Linker
+g++  -o "Map - empty"  ./src/Map\ -\ empty.o   
+Finished building target: Map - empty
+ 
+
+21:18:05 Build Finished. 0 errors, 0 warnings. (took 680ms)
+

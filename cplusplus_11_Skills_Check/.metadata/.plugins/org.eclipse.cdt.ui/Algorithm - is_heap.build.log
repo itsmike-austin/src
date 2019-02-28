@@ -1,0 +1,15 @@
+00:04:39 **** Incremental Build of configuration Debug for project Algorithm - is_heap ****
+make all 
+Building file: ../src/Algorithm - is_heap.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Algorithm - is_heap.d" -MT"src/Algorithm\ -\ is_heap.d" -o "src/Algorithm - is_heap.o" "../src/Algorithm - is_heap.cpp"
+Finished building: ../src/Algorithm - is_heap.cpp
+ 
+Building target: Algorithm - is_heap
+Invoking: GCC C++ Linker
+g++  -o "Algorithm - is_heap"  ./src/Algorithm\ -\ is_heap.o   
+Finished building target: Algorithm - is_heap
+ 
+
+00:04:40 Build Finished. 0 errors, 0 warnings. (took 913ms)
+

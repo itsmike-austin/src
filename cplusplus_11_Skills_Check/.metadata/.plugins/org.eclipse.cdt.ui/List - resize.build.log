@@ -1,0 +1,15 @@
+18:32:31 **** Incremental Build of configuration Debug for project List - resize ****
+make all 
+Building file: ../src/List - resize.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/List - resize.d" -MT"src/List\ -\ resize.d" -o "src/List - resize.o" "../src/List - resize.cpp"
+Finished building: ../src/List - resize.cpp
+ 
+Building target: List - resize
+Invoking: GCC C++ Linker
+g++  -o "List - resize"  ./src/List\ -\ resize.o   
+Finished building target: List - resize
+ 
+
+18:32:32 Build Finished. 0 errors, 0 warnings. (took 629ms)
+

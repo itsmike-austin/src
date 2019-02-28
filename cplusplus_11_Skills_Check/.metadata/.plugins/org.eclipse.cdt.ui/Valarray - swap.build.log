@@ -1,0 +1,6 @@
+09:57:47 **** Incremental Build of configuration Debug for project Valarray - swap ****
+make all 
+make: Nothing to be done for 'all'.
+
+09:57:47 Build Finished. 0 errors, 0 warnings. (took 269ms)
+

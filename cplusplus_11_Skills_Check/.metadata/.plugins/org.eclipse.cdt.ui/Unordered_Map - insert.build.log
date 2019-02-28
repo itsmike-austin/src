@@ -1,0 +1,15 @@
+22:15:57 **** Incremental Build of configuration Debug for project Unordered_Map - insert ****
+make all 
+Building file: ../src/Unordered_Map - insert.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Unordered_Map - insert.d" -MT"src/Unordered_Map\ -\ insert.d" -o "src/Unordered_Map - insert.o" "../src/Unordered_Map - insert.cpp"
+Finished building: ../src/Unordered_Map - insert.cpp
+ 
+Building target: Unordered_Map - insert
+Invoking: GCC C++ Linker
+g++  -o "Unordered_Map - insert"  ./src/Unordered_Map\ -\ insert.o   
+Finished building target: Unordered_Map - insert
+ 
+
+22:15:58 Build Finished. 0 errors, 0 warnings. (took 773ms)
+

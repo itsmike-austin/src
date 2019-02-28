@@ -1,0 +1,6 @@
+21:39:12 **** Incremental Build of configuration Debug for project Map - erase ****
+make all 
+make: Nothing to be done for 'all'.
+
+21:39:12 Build Finished. 0 errors, 0 warnings. (took 330ms)
+

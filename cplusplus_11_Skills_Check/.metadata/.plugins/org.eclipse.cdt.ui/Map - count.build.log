@@ -1,0 +1,15 @@
+20:43:32 **** Incremental Build of configuration Debug for project Map - count ****
+make all 
+Building file: ../src/Map - count.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Map - count.d" -MT"src/Map\ -\ count.d" -o "src/Map - count.o" "../src/Map - count.cpp"
+Finished building: ../src/Map - count.cpp
+ 
+Building target: Map - count
+Invoking: GCC C++ Linker
+g++  -o "Map - count"  ./src/Map\ -\ count.o   
+Finished building target: Map - count
+ 
+
+20:43:33 Build Finished. 0 errors, 0 warnings. (took 682ms)
+

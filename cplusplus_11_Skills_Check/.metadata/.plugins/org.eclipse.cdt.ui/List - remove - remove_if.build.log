@@ -1,0 +1,15 @@
+18:26:33 **** Incremental Build of configuration Debug for project List - remove - remove_if ****
+make all 
+Building file: ../src/List - remove - remove_if.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/List - remove - remove_if.d" -MT"src/List\ -\ remove\ -\ remove_if.d" -o "src/List - remove - remove_if.o" "../src/List - remove - remove_if.cpp"
+Finished building: ../src/List - remove - remove_if.cpp
+ 
+Building target: List - remove - remove_if
+Invoking: GCC C++ Linker
+g++  -o "List - remove - remove_if"  ./src/List\ -\ remove\ -\ remove_if.o   
+Finished building target: List - remove - remove_if
+ 
+
+18:26:34 Build Finished. 0 errors, 0 warnings. (took 631ms)
+

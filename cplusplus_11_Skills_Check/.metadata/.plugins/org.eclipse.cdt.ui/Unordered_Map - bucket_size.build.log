@@ -1,0 +1,15 @@
+00:25:59 **** Incremental Build of configuration Debug for project Unordered_Map - bucket_size ****
+make all 
+Building file: ../src/Unordered_Map - bucket_size.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Unordered_Map - bucket_size.d" -MT"src/Unordered_Map\ -\ bucket_size.d" -o "src/Unordered_Map - bucket_size.o" "../src/Unordered_Map - bucket_size.cpp"
+Finished building: ../src/Unordered_Map - bucket_size.cpp
+ 
+Building target: Unordered_Map - bucket_size
+Invoking: GCC C++ Linker
+g++  -o "Unordered_Map - bucket_size"  ./src/Unordered_Map\ -\ bucket_size.o   
+Finished building target: Unordered_Map - bucket_size
+ 
+
+00:26:00 Build Finished. 0 errors, 0 warnings. (took 726ms)
+

@@ -1,0 +1,15 @@
+11:25:45 **** Incremental Build of configuration Debug for project Iterator - inserter ****
+make all 
+Building file: ../src/Iterator - inserter.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Iterator - inserter.d" -MT"src/Iterator\ -\ inserter.d" -o "src/Iterator - inserter.o" "../src/Iterator - inserter.cpp"
+Finished building: ../src/Iterator - inserter.cpp
+ 
+Building target: Iterator - inserter
+Invoking: GCC C++ Linker
+g++  -o "Iterator - inserter"  ./src/Iterator\ -\ inserter.o   
+Finished building target: Iterator - inserter
+ 
+
+11:25:46 Build Finished. 0 errors, 0 warnings. (took 913ms)
+

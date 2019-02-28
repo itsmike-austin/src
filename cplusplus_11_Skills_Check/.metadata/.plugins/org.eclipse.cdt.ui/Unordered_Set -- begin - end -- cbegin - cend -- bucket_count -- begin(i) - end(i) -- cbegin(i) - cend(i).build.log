@@ -1,0 +1,16 @@
+10:03:00 **** Incremental Build of configuration Debug for project Unordered_Set -- begin - end -- cbegin - cend -- bucket_count -- begin(i) - end(i) -- cbegin(i) - cend(i) ****
+make all 
+Building file: ../src/Unordered_Set -- begin - end -- cbegin - cend -- bucket_count -- begin(i) - end(i) -- cbegin(i) - cend(i).cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Unordered_Set -- begin - end -- cbegin - cend -- bucket_count -- begin(i) - end(i) -- cbegin(i) - cend(i).d" -MT"src/Unordered_Set\ --\ begin\ -\ end\ --\ cbegin\ -\ cend\ --\ bucket_count\ --\ begin(i)\ -\ end(i)\ --\ cbegin(i)\ -\ cend(i).d" -o "src/Unordered_Set -- begin - end -- cbegin - cend -- bucket_count -- begin(i) - end(i) -- cbegin(i) - cend(i).o" "../src/Unordered_Set -- begin - end -- cbegin - cend -- bucket_count -- begin(i) - end(i) -- cbegin(i) - cend(i).cpp"
+Finished building: ../src/Unordered_Set -- begin - end -- cbegin - cend -- bucket_count -- begin(i) - end(i) -- cbegin(i) - cend(i).cpp
+ 
+Building target: Unordered_Set -- begin - end -- cbegin - cend -- bucket_count -- begin
+Invoking: GCC C++ Linker
+g++  -o "Unordered_Set -- begin - end -- cbegin - cend -- bucket_count -- begin(i) - end(i) -- cbegin(i) - cend(i)"  ./src/Unordered_Set\ --\ begin\ -\ end\ --\ cbegin\ -\ cend\ --\ bucket_count\ --\ begin(i)\ -\ end(i)\ --\ cbegin(i)\ -\ cend(i).o   
+/bin/sh: 1: Syntax error: "(" unexpected
+makefile:45: recipe for target 'Unordered_Set -- begin - end -- cbegin - cend -- bucket_count -- begin(i) - end(i) -- cbegin(i) - cend(i)' failed
+make: *** [Unordered_Set -- begin - end -- cbegin - cend -- bucket_count -- begin(i) - end(i) -- cbegin(i) - cend(i)] Error 2
+
+10:03:02 Build Failed. 2 errors, 0 warnings. (took 1s.569ms)
+

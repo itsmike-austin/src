@@ -1,0 +1,15 @@
+12:57:16 **** Incremental Build of configuration Debug for project Set - testIt ****
+make all 
+Building file: ../src/Set - testIt.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Set - testIt.d" -MT"src/Set\ -\ testIt.d" -o "src/Set - testIt.o" "../src/Set - testIt.cpp"
+Finished building: ../src/Set - testIt.cpp
+ 
+Building target: Set - testIt
+Invoking: GCC C++ Linker
+g++  -o "Set - testIt"  ./src/Set\ -\ testIt.o   
+Finished building target: Set - testIt
+ 
+
+12:57:17 Build Finished. 0 errors, 0 warnings. (took 644ms)
+

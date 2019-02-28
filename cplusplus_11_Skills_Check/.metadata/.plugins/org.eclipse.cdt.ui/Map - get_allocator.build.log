@@ -1,0 +1,6 @@
+21:47:28 **** Incremental Build of configuration Debug for project Map - get_allocator ****
+make all 
+make: Nothing to be done for 'all'.
+
+21:47:29 Build Finished. 0 errors, 0 warnings. (took 333ms)
+

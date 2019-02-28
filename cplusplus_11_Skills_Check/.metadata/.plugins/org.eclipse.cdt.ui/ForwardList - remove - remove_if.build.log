@@ -1,0 +1,6 @@
+22:52:55 **** Incremental Build of configuration Debug for project ForwardList - remove - remove_if ****
+make all 
+make: Nothing to be done for 'all'.
+
+22:52:55 Build Finished. 0 errors, 0 warnings. (took 321ms)
+

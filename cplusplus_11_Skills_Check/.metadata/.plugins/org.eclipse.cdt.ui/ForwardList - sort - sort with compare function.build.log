@@ -1,0 +1,6 @@
+23:07:38 **** Incremental Build of configuration Debug for project ForwardList - sort - sort with compare function ****
+make all 
+make: Nothing to be done for 'all'.
+
+23:07:38 Build Finished. 0 errors, 0 warnings. (took 314ms)
+

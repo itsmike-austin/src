@@ -1,0 +1,6 @@
+11:50:34 **** Incremental Build of configuration Debug for project Map - max_size ****
+make all 
+make: Nothing to be done for 'all'.
+
+11:50:34 Build Finished. 0 errors, 0 warnings. (took 265ms)
+

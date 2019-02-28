@@ -1,0 +1,15 @@
+12:19:43 **** Incremental Build of configuration Debug for project List - empty -- test if list is empty ****
+make all 
+Building file: ../src/List - empty -- test if list is empty.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/List - empty -- test if list is empty.d" -MT"src/List\ -\ empty\ --\ test\ if\ list\ is\ empty.d" -o "src/List - empty -- test if list is empty.o" "../src/List - empty -- test if list is empty.cpp"
+Finished building: ../src/List - empty -- test if list is empty.cpp
+ 
+Building target: List - empty -- test if list is empty
+Invoking: GCC C++ Linker
+g++  -o "List - empty -- test if list is empty"  ./src/List\ -\ empty\ --\ test\ if\ list\ is\ empty.o   
+Finished building target: List - empty -- test if list is empty
+ 
+
+12:19:44 Build Finished. 0 errors, 0 warnings. (took 566ms)
+

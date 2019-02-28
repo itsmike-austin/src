@@ -1,0 +1,15 @@
+20:54:11 **** Incremental Build of configuration Debug for project Map - emplace ****
+make all 
+Building file: ../src/Map - emplace.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Map - emplace.d" -MT"src/Map\ -\ emplace.d" -o "src/Map - emplace.o" "../src/Map - emplace.cpp"
+Finished building: ../src/Map - emplace.cpp
+ 
+Building target: Map - emplace
+Invoking: GCC C++ Linker
+g++  -o "Map - emplace"  ./src/Map\ -\ emplace.o   
+Finished building target: Map - emplace
+ 
+
+20:54:11 Build Finished. 0 errors, 0 warnings. (took 683ms)
+

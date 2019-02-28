@@ -1,0 +1,6 @@
+00:52:37 **** Incremental Build of configuration Debug for project Algorithm - lower_bound ****
+make all 
+make: Nothing to be done for 'all'.
+
+00:52:37 Build Finished. 0 errors, 0 warnings. (took 325ms)
+

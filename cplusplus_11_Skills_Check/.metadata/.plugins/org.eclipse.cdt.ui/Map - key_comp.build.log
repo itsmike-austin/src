@@ -1,0 +1,15 @@
+10:52:59 **** Incremental Build of configuration Debug for project Map - key_comp ****
+make all 
+Building file: ../src/Map - key_comp.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Map - key_comp.d" -MT"src/Map\ -\ key_comp.d" -o "src/Map - key_comp.o" "../src/Map - key_comp.cpp"
+Finished building: ../src/Map - key_comp.cpp
+ 
+Building target: Map - key_comp
+Invoking: GCC C++ Linker
+g++  -o "Map - key_comp"  ./src/Map\ -\ key_comp.o   
+Finished building target: Map - key_comp
+ 
+
+10:52:59 Build Finished. 0 errors, 0 warnings. (took 611ms)
+

@@ -1,0 +1,15 @@
+23:26:05 **** Incremental Build of configuration Debug for project Algorithm - generate_n ****
+make all 
+Building file: ../src/Algorithm - generate_n.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Algorithm - generate_n.d" -MT"src/Algorithm\ -\ generate_n.d" -o "src/Algorithm - generate_n.o" "../src/Algorithm - generate_n.cpp"
+Finished building: ../src/Algorithm - generate_n.cpp
+ 
+Building target: Algorithm - generate_n
+Invoking: GCC C++ Linker
+g++  -o "Algorithm - generate_n"  ./src/Algorithm\ -\ generate_n.o   
+Finished building target: Algorithm - generate_n
+ 
+
+23:26:06 Build Finished. 0 errors, 0 warnings. (took 876ms)
+

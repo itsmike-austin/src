@@ -1,0 +1,6 @@
+09:57:36 **** Incremental Build of configuration Debug for project Typeinfo - bad_cast ****
+make all 
+make: Nothing to be done for 'all'.
+
+09:57:37 Build Finished. 0 errors, 0 warnings. (took 316ms)
+

@@ -1,0 +1,15 @@
+15:44:41 **** Incremental Build of configuration Debug for project List - operator equals ****
+make all 
+Building file: ../src/List - operator equals.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/List - operator equals.d" -MT"src/List\ -\ operator\ equals.d" -o "src/List - operator equals.o" "../src/List - operator equals.cpp"
+Finished building: ../src/List - operator equals.cpp
+ 
+Building target: List - operator equals
+Invoking: GCC C++ Linker
+g++  -o "List - operator equals"  ./src/List\ -\ operator\ equals.o   
+Finished building target: List - operator equals
+ 
+
+15:44:41 Build Finished. 0 errors, 0 warnings. (took 631ms)
+

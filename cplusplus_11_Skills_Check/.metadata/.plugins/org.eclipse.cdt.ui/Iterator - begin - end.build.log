@@ -1,0 +1,6 @@
+01:10:06 **** Incremental Build of configuration Debug for project Iterator - begin - end ****
+make all 
+make: Nothing to be done for 'all'.
+
+01:10:06 Build Finished. 0 errors, 0 warnings. (took 328ms)
+

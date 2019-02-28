@@ -1,0 +1,6 @@
+00:10:47 **** Incremental Build of configuration Debug for project Algorithm - is_heap_until ****
+make all 
+make: Nothing to be done for 'all'.
+
+00:10:47 Build Finished. 0 errors, 0 warnings. (took 324ms)
+

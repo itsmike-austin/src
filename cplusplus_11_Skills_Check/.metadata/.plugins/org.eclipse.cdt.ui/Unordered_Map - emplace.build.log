@@ -1,0 +1,15 @@
+00:36:18 **** Incremental Build of configuration Debug for project Unordered_Map - emplace ****
+make all 
+Building file: ../src/Unordered_Map - emplace.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Unordered_Map - emplace.d" -MT"src/Unordered_Map\ -\ emplace.d" -o "src/Unordered_Map - emplace.o" "../src/Unordered_Map - emplace.cpp"
+Finished building: ../src/Unordered_Map - emplace.cpp
+ 
+Building target: Unordered_Map - emplace
+Invoking: GCC C++ Linker
+g++  -o "Unordered_Map - emplace"  ./src/Unordered_Map\ -\ emplace.o   
+Finished building target: Unordered_Map - emplace
+ 
+
+00:36:18 Build Finished. 0 errors, 0 warnings. (took 680ms)
+

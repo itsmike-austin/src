@@ -1,0 +1,6 @@
+23:11:28 **** Incremental Build of configuration Debug for project Deque - swap ****
+make all 
+make: Nothing to be done for 'all'.
+
+23:11:28 Build Finished. 0 errors, 0 warnings. (took 318ms)
+

@@ -1,0 +1,6 @@
+23:02:07 **** Incremental Build of configuration Debug for project ForwardList - reverse ****
+make all 
+make: Nothing to be done for 'all'.
+
+23:02:07 Build Finished. 0 errors, 0 warnings. (took 316ms)
+
