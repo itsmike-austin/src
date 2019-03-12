@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Propogation</title>
+  </head>
+  <body>
+    <p>A paragraph with a <button>button</button>.</p>
+    <script>
+      // Run this guy in a debugger if you want to understand how it works.
+      
+      para = document.querySelector("p");
+      let button = document.querySelector("button");
+      para.addEventListener("mousedown",e => {
+        if ( e.target.nodeName != "BUTTON" ) {
+          alert("Handler for paragraph");
+        }
+      });
+      button.addEventListener("mousedown",event => {
+        alert("Handler for button");
+        if ( event.button == 0 ) event.stopPropogation();
+      });
+    </script>
+  </body>
+</html>
+
+    
+
+      

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Focus</title>
+  </head>
+  <body>
+    <input type="text">
+    <script>
+      document.querySelector("input").focus();
+      console.log(document.activeElement.tagName);
+      document.querySelector("input").blur();
+      console.log(document.activeElement.tagName);
+    </script>
+  </body>
+</html>

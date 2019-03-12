@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Key Events</title>
+  </head>
+  <body>
+    <p>This page turns violent when you hold the V key.</p>
+    <p>This page sends an alert for |ctrl|+|space|</p>
+    <script>
+      window.addEventListener("keydown",event => {
+        if ( event.key == "v" ) {
+          document.body.style.background = "violet";
+        }
+      });
+      window.addEventListener("keyup",event => {
+        if ( event.key == "v" ) {
+          document.body.style.background = "";
+        }
+      });
+      window.addEventListener("keydown",event => {
+        if ( event.key == " " && event.ctrlKey ) {
+          alert("Keydown: <ctrl> + <space>");
+	}
+      });
+    </script>
+  </body>
+</html>
+
+    
+
+      

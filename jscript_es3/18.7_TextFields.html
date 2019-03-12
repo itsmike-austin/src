@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Text Fields</title>
+  </head>
+  <body>
+    <textarea></textarea>
+    <script>
+      let textarea = document.querySelector("textarea");
+        textarea.addEventListener("keydown",event => {
+          // The key code for F2 happens to be 113
+          if ( event.keyCode == 113 ) {
+          replaceSelection(textarea,"JoeBob");
+          event.preventDefault();
+        }
+      });
+      function replaceSelection(field,word) {
+        let from = field.selectionStart, to = field.selectionEnd;
+        field.value = field.value.slice(0,from) + word + field.value.slice(to);
+      
+        // Put the cursor after the word
+
+        field.selectionStart = from + word.length;
+        field.selectionEnd   = from + word.length;
+      }
+    </script>
+  </body>
+</html>

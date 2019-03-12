@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="submit.html">
+      Value: <input type="text" name="value">
+      <button type="submit">Save</button>
+      <script>
+	let form = document.querySelector("form");
+	form.addEventListener("submit",event => {
+	  console.log("Saving value", form.elements.value.value);
+	  event.preventDefault();
+	});
+      </script>
+  </body>
+</html>

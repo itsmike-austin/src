@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Exceptions</title>
+  </head>
+  <body>
+    <p id="demo"></p>
+    <script>
+      function promptDirection(question) {
+        let result = prompt(question);
+      
+        if ( result.toLowerCase() == "left"  ) return "L";
+        if ( result.toLowerCase() == "right" ) return "R";
+
+        throw new Error("Invalid direction: " + result);
+      }
+
+      function look() {
+        if ( promptDirection("Which way?") == "L" ) {
+          return "a house";
+        }else{
+          return "two angry bears";
+        }
+      }
+
+      try {
+        alert("You see " + look());
+      }catch( error ) {
+        alert("Something went wrong: " + error);
+      }
+    </script>
+  </body>
+</html>

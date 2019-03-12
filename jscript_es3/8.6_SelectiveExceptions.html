@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html language="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Selective Exceptions</title>
+  </head>
+  <body>
+    <p id="demo"></p>
+    <script>
+      class InputError extends Error {}
+
+      function promptDirection(question) {
+        let result = prompt(question);
+        if ( result.toLowerCase() == "left"  ) return "L";
+        if ( result.toLowerCase() == "right" ) return "R";
+        throw new InputError("Invalid Direction: " + result);
+      }
+
+      for( ;; ) {
+        try {
+          let dir = promptDirection("Where?");
+          alert("You chose " + dir);
+          break;
+      }catch(e) {
+          if ( e instanceof InputError ) {
+            alert("Not a valid direction type. Try again.");
+          }else{
+            throw e;
+          }
+        }
+      }
+    </script>
+  </body>
+</html>

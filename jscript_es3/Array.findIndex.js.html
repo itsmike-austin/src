@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <body>
+
+    <p>Click the button to check get the index of the first element in the array that has a value of 18 or more.</p>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <p id="demo"></p>
+
+    <p><strong>Note:</strong> The findIndex() method is not supported in IE 11 (and earlier versions).</p>
+
+    <script>
+      var ages = [3, 10, 18, 20];
+      function checkAdult(age) {
+        return age >= 18;
+      }
+
+      function myFunction() {
+        document.getElementById("demo").innerHTML = ages.findIndex(checkAdult);
+      }
+    </script>
+  </body>
+</html>

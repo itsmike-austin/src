@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <style>
+      body { background-color: ivory; }
+      canvas { border: 1px solid red' }
+    </style>
+    <script>
+      let k = function() {
+        var canvas = document.getElementById("canvas");
+        var ctx    = canvas.getContext("2d");
+
+        var img = new Image();
+      
+        img.onload = function() {
+          canvas.width  = img.width;
+          canvas.height = img.height;
+          ctx.drawImage(img,0,0);
+        }
+        img.src = "simple-smile.png";
+        canvas.addEventListener("click",function (e) { alert("got cha"); });
+      }
+    </script>
+  </head>
+  <body onload="k()">
+    <canvas id="canvas" width=300 height=300></canvas>
+  </body>
+</html>
+

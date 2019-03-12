@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Styling</title>
+  </head>
+  <body>
+    <p><a href=".">Normal link</a></p>
+    <p><a href="." style="color: green">Green link</a></p>
+    This text is displayed <strong>inline</strong>
+    <strong style="display: block">as a block</strong>, and
+    <strong style="display: none">not at all</strong>.
+    <p id="para" style="color: purple">
+      Nice Text
+    </p>
+    <script>
+      para = document.getElementById("para");
+      alert("para.style.color: " + para.style.color + " will now be magenta.");
+      para.style.color = "magenta";
+    </script>
+  </body>
+</html>
+
+    
+
+      

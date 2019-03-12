@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Checkboxes and Radio Buttons</title>
+  </head>
+  <body>
+    <label>
+      <input type="checkbox" id="purple">Make this page purple
+    </label>
+    <script>
+      let checkbox = document.querySelector("#purple");
+      checkbox.addEventListener("change",() => {
+        document.body.style.background = (checkbox.checked ? "mediumpurple" : "");
+      });
+    </script>
+  </body>
+</html>

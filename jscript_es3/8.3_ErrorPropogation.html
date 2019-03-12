@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Error Propogation</title>
+  </head>
+  <body>
+    <script>
+      function lastElement(array) {
+        let rc = null;
+        if ( array.length == 0 ) {
+          rc = {failed: true};
+        }else{
+          rc = {element: array[array.length-1]};
+        }
+        return rc;
+      }
+      let k = lastElement([]);
+      if ( k.element == undefined ) alert("undefined");
+      if ( k.failed  == true      ) alert("got a true");
+    </script>
+    <p id="demo"></p>
+  </body>
+</html>

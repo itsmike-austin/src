@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Click Image</title>
+    <script>
+      function getMouse(e,canvas) {
+      let base = canvas,
+          offX = 0,
+          offY = 0,
+          ax,ay;
+
+        if ( canvas.offsetParent !== undefined ) {
+          do{
+            offX += base.offsetLeft;
+            offY += base.offsetTop;
+          }while( (base = base.offsetParent));
+
+        }
+        ax = e.pageX - offX;
+        ay = e.pageY - offY;
+
+        return { x: ax, y: ay };
+      }
+      
+      function kickMe() {
+        alert("kick me");
+      }
+      
+      let hitArray = [];
+      
+      class HitMan {
+        constructor(x,y,height,width) {
+          this.x      = x;
+          this.y      = y;
+          this.height = height;
+          this.width  = width;
+          this.maxX   = x + width;
+          this.maxY   = x + height;
+        }
+
+        gotHit(ax,ay) {
+          return ( (ax <= this.maxX && ax >= this.x && ay <= this.maxY && ay >= this.y) ? true : false);
+	}
+      };
+    </script>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <script>
+      
+      let canvas = document.getElementById('canvas');
+      let cx     = canvas.getContext("2d");
+
+      let img = new Image();
+      img.setAttribute('alt',"Oops!");
+      img.onload = function() {
+        let guido = new HitMan(img.x,img.y,img.height,img.width);
+        hitArray.push(guido);
+        cx.drawImage(img,0,0);
+      };
+      img.setAttribute('src','simple-smile.png');
+
+      canvas.onmousemove = function(e) {
+      let pt = getMouse(e,canvas);
+      for( let idx in hitArray ) {
+	if ( hitArray[idx].gotHit(pt.x,pt.y) == true ) {
+	  console.log("bang");
+	}else{
+	  console.log("x,y: " + pt.x + "," + pt.y);
+	}
+      }
+    }
+			   
+      
+/*      
+      
+
+
+      
+      window.onload = function() {
+        let cx  = document.querySelector("canvas").getContext("2d");
+        let img = document.createElement('img');
+        img.setAttribute('src','simple-smile.png');
+        img.setAttribute('alt',"oops!");
+        img.addEventListener('load',() => {
+          let k = document.querySelector('img');
+          if ( null != k ) {
+            k.addEventListener('click',event => {
+              kickMe(event);
+            });
+          }
+          cx.drawImage(img,20,20);
+          img.onclick = function(e) {
+            alert("blah!");
+          }
+        });
+      }
+      */
+    </script>
+  </body>
+</html>

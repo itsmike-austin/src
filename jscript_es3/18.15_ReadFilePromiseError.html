@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>FileReader Errors</title>
+  </head>
+  <body>
+    <input type="file">
+    <script>
+      function readTextFile(file) {
+        return new Promise((resolve,reject) => {
+          let reader = new FileReader();
+          reader.addEventListener("load",() => resolve(reader.result));
+          reader.addEventListener("error",() => reject(reader.error));
+          reader.readAsText(file);
+        });
+      }
+
+      let input = document.querySelector("input");
+      
+      input.addEventListener("change",() => {
+        let file = input.files[0];
+        let prom = readTextFile(file);
+        prom.then(function(value) {
+          console.log(value);
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <body>
+
+    <p>Click the button to get the sum of the numbers in the array.</p>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <p>Sum of numbers in array: <span id="demo"></span></p>
+
+    <script>
+      var numbers = [65, 44, 12, 4];
+
+      function getSum(total, num) {
+        return total + num;
+      }
+
+      function myFunction(item) {
+        document.getElementById("demo").innerHTML = numbers.reduce(getSum);
+      }
+    </script>
+  </body>
+</html>

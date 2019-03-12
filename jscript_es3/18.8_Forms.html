@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>The replaceSelection Method</title>
+  </head>
+  <body>
+    <input type="text">length: <span id="length">0</span>
+    <script>
+      let text = document.querySelector("input");
+      let output = document.querySelector("#length");
+      text.addEventListener("input",() => {
+        output.textContent = text.value.length;
+      });
+    </script>
+  </body>
+</html>

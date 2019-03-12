@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Fetch from HTML</title>
+  </head>
+  <body>
+    <script>
+      fetch("data.txt").then(response => {
+        console.log(response.status);
+        console.log(response.headers.get("Content-Type"));
+      });
+
+      fetch("data.txt")
+        .then(resp => resp.text())
+        .then(text => console.log(text));
+
+      fetch("data.txt", {method: "DELETE"}).then( resp => {
+        console.log(resp.status);
+      });
+
+      fetch("data.txt", {headers: {Range: "bytes=8-19"}})
+        .then(resp =>resp.text())
+        .then(console.log);
+    </script>
+  </body>
+<html>
+

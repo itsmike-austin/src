@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Error Propogation</title>
+  </head>
+  <body>
+    <p id="demo"></p>
+    <script>
+      function promptNumber(question) {
+        let result = Number(prompt(question));
+        return (Number.isNaN(result) ? null : result);
+      }
+
+      let value = promptNumber("How many trees do you see?");
+
+      document.getElementById("demo").innerHTML = "Value: " + (null != value ? value : "null");
+
+    </script>
+  </body>
+</html>
+
+
+      
